@@ -1,0 +1,2187 @@
+{
+  "source": "yemenilaw.com",
+  "scraped_at": "2026-09-08 07:59",
+  "laws_count": 37,
+  "sections_count": 290,
+  "contracts_count": 85,
+  "articles_count": 22,
+  "total_pages": 434,
+  "laws": [
+    {
+      "title": "القوانين الإدارية اليمنية",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qawanin-idariya/",
+      "length": 3413
+    },
+    {
+      "title": "تحميل قانون المواصفات والمقاييس وضبط الجودة اليمني رقم (44) لسنة 1999م PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-almuwasafat-walmaqayis-wa-dabt-aljawda/",
+      "length": 15727
+    },
+    {
+      "title": "تحميل قانون السلطة المحلية اليمني رقم (4) لسنة 2000م وتعديلاته PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-alsulta-almahaliya/",
+      "length": 8372
+    },
+    {
+      "title": "تحميل قانون البناء اليمني رقم (19) لسنة 2002م PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-albina/",
+      "length": 29936
+    },
+    {
+      "title": "تحميل قانون حقوق الطفل اليمني رقم (45) لسنة 2002م PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-huquq-altifl/",
+      "length": 42075
+    },
+    {
+      "title": "تحميل قانون تنظيم النقابات العمالية اليمني رقم (35) لسنة 2002م PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-tanzim-alnaqabat-alummaliya/",
+      "length": 21700
+    },
+    {
+      "title": "تحميل قانون الأسماء التجارية اليمني رقم (20) لسنة 2003م PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-alasma-altijaria/",
+      "length": 13419
+    },
+    {
+      "title": "تحميل قانون الجامعات والمعاهد العليا والكليات الأهلية رقم (13) لسنة 2005م PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-aljamiat-walmaahid-alkuliyat-alahliya/",
+      "length": 28028
+    },
+    {
+      "title": "تحميل قانون نظام الوظائف والأجور والمرتبات رقم (43) لسنة 2005م PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-nitham-alwathaif-walajur-walmurtabat/",
+      "length": 21194
+    },
+    {
+      "title": "تحميل قانون أنظمة الدفع والعمليات المالية والمصرفية الإلكترونية رقم (40) لسنة 2006م PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-anzimat-aldaf-walamaliat-almasrifia-aliliktronia/",
+      "length": 22642
+    },
+    {
+      "title": "تحميل قانون التجارة الداخلية اليمني رقم (5) لسنة 2007م PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-altijara-aldakhilia/",
+      "length": 11458
+    },
+    {
+      "title": "تحميل قانون المناجم والمحاجر اليمني رقم (24) لسنة 2002م PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-almanajim-walmahajir/",
+      "length": 22080
+    },
+    {
+      "title": "تحميل قانون الإذاعة والتلفزيون اليمني رقم (32) لسنة 2003م PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-alidhaa-waltalfazion/",
+      "length": 21488
+    },
+    {
+      "title": "تحميل قانون النقل البري اليمني رقم (33) لسنة 2003م PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-alnaql-albarri/",
+      "length": 25968
+    },
+    {
+      "title": "تحميل قانون مكافحة غسل الأموال اليمني رقم (35) لسنة 2003م PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-mukafahat-ghasl-alamwal/",
+      "length": 10633
+    },
+    {
+      "title": "تحميل قانون الموانئ البحرية اليمني رقم (23) لسنة 2013م PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-almawani-albahria/",
+      "length": 23277
+    },
+    {
+      "title": "تحميل قانون المياه اليمني رقم (33) لسنة 2002م وتعديلاته PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-almiah/",
+      "length": 35913
+    },
+    {
+      "title": "تحميل قانون الأراضي وعقارات الدولـة اليمني PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-aradi-wa-aqarat-al-dawla/",
+      "length": 25971
+    },
+    {
+      "title": "تحميل قانون تنظيم العلاقة بين المؤجر والمستأجر اليمني PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-tanzim-alalaqa-bayn-almuajir-wa-almustajir/",
+      "length": 31004
+    },
+    {
+      "title": "تحميل قانون المرافعات والتنفيذ المدني اليمني PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-almurafaat-wa-altanfidh-almadani/",
+      "length": 451265
+    },
+    {
+      "title": "تحميل اللائحة التنفيذية لقانون أراضي وعقارات الدولة اليمني رقم 21 لسنة 1995م PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/allaiha-altanfidhia-liqanun-aradi-wa-aqarat-aldawla/",
+      "length": 59702
+    },
+    {
+      "title": "تحميل قانون الجرائم والعقوبات اليمني PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-aljaraim-waleuqubat/",
+      "length": 103343
+    },
+    {
+      "title": "تحميل قانون الزكـــاة اليمني PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-alzakat/",
+      "length": 16548
+    },
+    {
+      "title": "تحميل قانون العمل اليمني PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-alamal/",
+      "length": 70703
+    },
+    {
+      "title": "تحميل القانون المدني اليمني PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/alqanun-almadani-alyamani/",
+      "length": 293162
+    },
+    {
+      "title": "تحميل قانون المرور اليمني وتعديلاته PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-almurur/",
+      "length": 55655
+    },
+    {
+      "title": "تحميل القانون التجاري اليمني وتعديلاته PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/alqanun-altijari/",
+      "length": 240267
+    },
+    {
+      "title": "تحميل قانون مزاولة المهن الطبية والصيدلانية اليمني PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-almihan-altibiya-walsaydaliya/",
+      "length": 306688
+    },
+    {
+      "title": "تحميل اللائحة التنفيذية لقانون هيئة الشرطة اليمني PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/allaiha-altanfidhia-liqanun-hayat-alshurta/",
+      "length": 76389
+    },
+    {
+      "title": "تحميل قانون الوقــف الشـــــرعي اليمني PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-alwaqf-alsharii/",
+      "length": 19580
+    },
+    {
+      "title": "تحميل قانون الأحوال الشخصية اليمني PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-alahwal-alshakhsia/",
+      "length": 105121
+    },
+    {
+      "title": "تحميل قانون التخطيط الحضري اليمني PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-altakhtit-alhadari/",
+      "length": 29366
+    },
+    {
+      "title": "تحميل قانون الإجراءات الجزائية اليمني PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-alijraat-aljazaiya/",
+      "length": 159512
+    },
+    {
+      "title": "تحميل قانون الإسكان و التخطيط الحضري اليمني PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-aliskan-waltakhtit-alhadari/",
+      "length": 29424
+    },
+    {
+      "title": "تحميل قانون الشركات التجارية اليمني PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-alsharikat-altijaria/",
+      "length": 123348
+    },
+    {
+      "title": "تحميل قانون الإثبات(وتعديلاته) اليمني PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-alithbat/",
+      "length": 37872
+    },
+    {
+      "title": "تحميل قانون التحكيم اليمني PDF",
+      "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-altahkim/",
+      "length": 19428
+    }
+  ],
+  "sections": [
+    {
+      "title": "الدعاوى المدنية",
+      "url": "https://www.yemenilaw.com/library/civil/",
+      "length": 1276
+    },
+    {
+      "title": "الدعاوى المدنية",
+      "url": "https://www.yemenilaw.com/library/civil/",
+      "length": 1276
+    },
+    {
+      "title": "دعوى المحاسبة المالية",
+      "url": "https://www.yemenilaw.com/library/civil/dawa-al-muhasaba/",
+      "length": 15715
+    },
+    {
+      "title": "دعوى المطالبة بدين",
+      "url": "https://www.yemenilaw.com/library/civil/dawa-al-mutalaba-bi-dayn/",
+      "length": 18333
+    },
+    {
+      "title": "دعوى التعويض عن الضرر",
+      "url": "https://www.yemenilaw.com/library/civil/dawa-taawid-an-al-darar/",
+      "length": 20501
+    },
+    {
+      "title": "دعوى استرجاع العربون",
+      "url": "https://www.yemenilaw.com/library/civil/dawa-istirjaa-arbun/",
+      "length": 17769
+    },
+    {
+      "title": "دعوى إثبات الملكية",
+      "url": "https://www.yemenilaw.com/library/civil/dawa-ithbat-al-milkiya/",
+      "length": 16813
+    },
+    {
+      "title": "دعوى الاستحقاق",
+      "url": "https://www.yemenilaw.com/library/civil/dawa-al-istihqaq/",
+      "length": 15749
+    },
+    {
+      "title": "دعوى رفع يد غاصب",
+      "url": "https://www.yemenilaw.com/library/civil/dawa-raf-yad-ghasib/",
+      "length": 12139
+    },
+    {
+      "title": "دعوى الشفعة في أرض",
+      "url": "https://www.yemenilaw.com/library/civil/dawa-al-shufaa/",
+      "length": 16030
+    },
+    {
+      "title": "دعوى حق الارتفاق",
+      "url": "https://www.yemenilaw.com/library/civil/dawa-haq-al-irtifaq/",
+      "length": 20113
+    },
+    {
+      "title": "دعوى تسليم مستندات",
+      "url": "https://www.yemenilaw.com/library/civil/dawa-taslim-mustanadat/",
+      "length": 16604
+    },
+    {
+      "title": "دعوى صحة ونفاذ عقد البيع",
+      "url": "https://www.yemenilaw.com/library/civil/dawa-sihat-wa-nafadh-aqd-al-bay/",
+      "length": 18873
+    },
+    {
+      "title": "دعوى فسخ عقد",
+      "url": "https://www.yemenilaw.com/library/civil/dawa-faskh-aqd/",
+      "length": 15272
+    },
+    {
+      "title": "دعوى بطلان محرر",
+      "url": "https://www.yemenilaw.com/library/civil/dawa-butlan-muharrar/",
+      "length": 17492
+    },
+    {
+      "title": "دعوى إخلاء عين مؤجرة",
+      "url": "https://www.yemenilaw.com/library/civil/dawa-ikhlaa-ayn-muajara/",
+      "length": 17105
+    },
+    {
+      "title": "دعوى قسمة مال شائع",
+      "url": "https://www.yemenilaw.com/library/civil/dawa-qisma-mal-shaei/",
+      "length": 13043
+    },
+    {
+      "title": "الدعاوى التجارية",
+      "url": "https://www.yemenilaw.com/library/commercial/",
+      "length": 3991
+    },
+    {
+      "title": "الدعاوى التجارية",
+      "url": "https://www.yemenilaw.com/library/commercial/",
+      "length": 3991
+    },
+    {
+      "title": "دعوى المطالبة بقيمة الكمبيالة",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-al-mutalaba-bi-qimat-al-kambiyala/",
+      "length": 16255
+    },
+    {
+      "title": "دعوى رجوع حامل الكمبيالة على الساحب",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-rujuu-hamil-al-kambiyala-ala-al-sahib/",
+      "length": 17391
+    },
+    {
+      "title": "دعوى المطالبة بقيمة الشيك",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-al-mutalaba-bi-qimat-al-shayk/",
+      "length": 17057
+    },
+    {
+      "title": "دعوى رجوع حامل الشيك",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-rujuu-hamil-al-shayk/",
+      "length": 15303
+    },
+    {
+      "title": "دعوى استحقاق الشيك",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-istihqaq-al-shayk/",
+      "length": 15116
+    },
+    {
+      "title": "دعوى الإثراء بلا سبب المرتبط بالشيك",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-al-ithraa-bila-sabab-al-murtabit-bialshayk-baad-al-taqadum/",
+      "length": 12538
+    },
+    {
+      "title": "دعوى مصروفات الأوراق التجارية",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-al-mutalaba-bil-masrufat-wal-fawaid-al-nashia-an-al-rujuu-fi-al-awraq-al-tijariya/",
+      "length": 19098
+    },
+    {
+      "title": "دعوى مسؤولية المخزن العام",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-masuliyat-al-makhzan-al-aam-an-talaf-al-bidaa-aw-diyaauha/",
+      "length": 17235
+    },
+    {
+      "title": "دعوى المطالبة برصيد الحساب الجاري",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-al-mutalaba-bi-rasid-al-hisab-al-jari-baad-iqfalih/",
+      "length": 21375
+    },
+    {
+      "title": "دعوى المنازعة في كشف الحساب البنكي",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-al-munazaa-fi-kashf-al-hisab-al-banki/",
+      "length": 21701
+    },
+    {
+      "title": "دعوى رد الوديعة البنكية",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-radd-al-wadia-al-banki/",
+      "length": 19152
+    },
+    {
+      "title": "دعوى تنفيذ الحوالة البنكية",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-tanfidh-al-hawala-al-banki/",
+      "length": 17344
+    },
+    {
+      "title": "دعوى تنفيذ الاعتماد المستندي",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-tanfidh-al-itimad-al-mustanadi/",
+      "length": 18669
+    },
+    {
+      "title": "دعوى مسؤولية البنك عن مخالفة شروط الاعتماد المستندي",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-masuliyat-al-bank-an-mukhalafa-shurut-al-itimad-al-mustanadi/",
+      "length": 15559
+    },
+    {
+      "title": "دعوى المطالبة بقيمة خطاب الضمان",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-al-mutalaba-bi-qimat-khitab-al-daman/",
+      "length": 13877
+    },
+    {
+      "title": "دعوى استرداد ما خرج من ذمة البنك",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-istirdad-ma-kharaj-min-dhimat-al-bank-bisabab-khitab-al-daman/",
+      "length": 17967
+    },
+    {
+      "title": "دعوى رد ما قبضه السمسار بغير حق",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-radd-ma-qabdh-al-simsar-bi-ghayr-haq/",
+      "length": 16164
+    },
+    {
+      "title": "دعوى التعويض عن إخلال الوكيل التجاري بالتزاماته",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-al-taawid-an-ikhlal-al-wakil-al-tijari-bialtizamatih/",
+      "length": 20998
+    },
+    {
+      "title": "دعوى إنهاء أو فسخ الوكالة التجارية",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-inhaa-aw-faskh-al-wakala-al-tijariya/",
+      "length": 20682
+    },
+    {
+      "title": "دعوى المطالبة بأجر الوكالة التجارية",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-al-mutalaba-bi-ajr-al-wakala-al-tijariya/",
+      "length": 19397
+    },
+    {
+      "title": "دعوى إثبات وكالة تجارية بالعمولة",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-ithbat-wakala-tijariya-bil-umula/",
+      "length": 20081
+    },
+    {
+      "title": "دعوى أتعاب السمسار",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-ataab-al-simsar/",
+      "length": 13670
+    },
+    {
+      "title": "دعوى إفلاس الشراكة",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-iflas-al-sharaka/",
+      "length": 19952
+    },
+    {
+      "title": "دعوى فض الشراكة",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-fadd-al-sharaka/",
+      "length": 18263
+    },
+    {
+      "title": "دعوى الشركاء لتقييم رأس مال الشركة وحصص كل شريك",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-al-shuraka-li-taqyim-ras-mal-al-sharika-wa-hisas-kul-sharik/",
+      "length": 18828
+    },
+    {
+      "title": "دعوى محاسبة الشراكة",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-muhasaba-al-sharaka/",
+      "length": 16655
+    },
+    {
+      "title": "دعوى أرباح عقد المضاربة طويل الأجل",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-arbah-aqd-al-mudaraba-tawil-al-ajal/",
+      "length": 17043
+    },
+    {
+      "title": "دعوى أرباح الشراكة",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-arbah-al-sharaka/",
+      "length": 14348
+    },
+    {
+      "title": "دعوى إثبات شراكة عرفية",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-ithbat-sharaka-urfiya/",
+      "length": 14082
+    },
+    {
+      "title": "دعوى بطلان شرط التنازل عن العربون عند فسخ البيع",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-butlan-shart-al-tanazul-an-al-arbun-and-faskh-al-bay/",
+      "length": 16867
+    },
+    {
+      "title": "دعوى مطالبة بإعادة العربون إلى المشتري بعد فسخ البيع",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-mutalaba-bi-iadat-al-arbun-ila-al-mushtari-baad-faskh-al-bay/",
+      "length": 16664
+    },
+    {
+      "title": "دعوى مطالبة بالثمن الحال كاملًا بعد تسليم المبيع",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-mutalaba-bialthaman-al-hal-kamilan-baad-taslim-al-mabee/",
+      "length": 15831
+    },
+    {
+      "title": "دعوى إلزام المشتري بدفع الثمن",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-ilzam-al-mushtari-bi-dafaa-al-thaman/",
+      "length": 14299
+    },
+    {
+      "title": "دعوى منع المنافسة بعد انتهاء عقد العمل",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-mana-al-munafasa-baad-intihaa-aqd-al-amal/",
+      "length": 13822
+    },
+    {
+      "title": "دعوى منع المنافسة غير المشروعة",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-tijariya-mana-istimala-al-ummal-aw-al-muwazzafin-li-hamluhum-ala-tark-khidma-sahib-al-amal-waldkhwl-fi-khidma-al-munafis-bi-qasd-al-idrar-bih/",
+      "length": 16090
+    },
+    {
+      "title": "دعوى منع استمالة العمال",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-tijariya-mana-istimala-al-ummal-aw-al-muwazzafin-aw-al-husul-ala-asrar-al-nashat-al-tijari-bi-wasail-ghayr-al-mashrua/",
+      "length": 14706
+    },
+    {
+      "title": "كيف تكون الدعوي علي أساس منع المنافسة غير المشروعة او منع الاخلال بشرط عدم المنافسه مستقبلا ً",
+      "url": "https://www.yemenilaw.com/library/commercial/kayf-takun-al-dawa-ala-asas-mana-al-munafasa-ghayr-al-mashrua-aw-mana-al-ikhlal-bi-shart-adam-al-munafasa-mustaqbalan/",
+      "length": 14835
+    },
+    {
+      "title": "دعوى إثبات حالة في المجال التجاري",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-ithbat-hala-fi-al-majal-al-tijari/",
+      "length": 2523
+    },
+    {
+      "title": "دعوى إلزام المقاول باستكمال العمل او استرداد المبالغ المدفوعه",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-ilzam-al-muqawil-biastikmal-al-amal-aw-istirdad-al-mabalegh-al-madfua/",
+      "length": 15390
+    },
+    {
+      "title": "دعوى إتمام العمل على نفقة المقاول",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-al-muqtarina-bi-talab-al-tarkhis-bi-itmam-al-amal-ali-nafaqa-al-muqawil-al-awwal-and-al-imtinaa-an-al-itmam/",
+      "length": 14668
+    },
+    {
+      "title": "دعوى إلزام المقاول بإصلاح العيوب او إعادة التنفيذ",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-ilzam-al-muqawil-bi-islah-al-uyub-aw-iadat-al-tanfidh/",
+      "length": 14079
+    },
+    {
+      "title": "دعوى إلزام المقاول بإتمام العمل",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-ilzam-al-muqawil-bi-itmam-al-amal/",
+      "length": 13724
+    },
+    {
+      "title": "دعوى تعويض تلف البضاعة أثناء النقل",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-ilzam-al-naqil-bi-taawid-al-darar-aladhi-asab-al-bidaa-athnaa-tanfidh-aqd-al-naql/",
+      "length": 15270
+    },
+    {
+      "title": "دعوى إلزام الناقل بالتعويض عن التاخير",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-ilzam-al-naqil-bi-taawid-an-al-taakhir/",
+      "length": 11678
+    },
+    {
+      "title": "دعوى تسليم البضاعة للجهة المحددة",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-ilzam-al-naqil-bi-taslim-al-bidaa-ila-al-jihha-aw-al-shakhs-al-muhaddad-wifq-al-aqd/",
+      "length": 12493
+    },
+    {
+      "title": "دعوى إلزام الناقل بقبول البضاعة والشروع في النقل وفق العقد",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-ilzam-al-naqil-bi-qubul-al-bidaa-wal-shuruu-fi-al-naql-wifq-al-aqd/",
+      "length": 12537
+    },
+    {
+      "title": "دعوى إلزام الناقل بالنقل",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-ilzam-al-naqil-bialnaql/",
+      "length": 13898
+    },
+    {
+      "title": "دعوى تنفيذ الالتزام بعمل",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-tanfidh-al-iltizam-bi-amal/",
+      "length": 12686
+    },
+    {
+      "title": "دعوى الفسخ مع التعويض عند انتفاء جدوى التنفيذ",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-al-faskh-maa-al-taawid-and-antifaa-jadwa-al-tanfidh/",
+      "length": 13589
+    },
+    {
+      "title": "دعوى التعويض عن شراء بديل",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-al-taawid-an-shiraa-badil/",
+      "length": 16117
+    },
+    {
+      "title": "دعوى التعويض عن التاخير",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-al-taawid-an-al-taakhir/",
+      "length": 14518
+    },
+    {
+      "title": "دعوى الترخيص بالتنفيذ علي نفقة المورد",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-al-tarkhis-bialtanfidh-ali-nafaqa-al-mawrid/",
+      "length": 13034
+    },
+    {
+      "title": "دعوى تصحيح المواصفات",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-tashih-al-muwasafat/",
+      "length": 12757
+    },
+    {
+      "title": "دعاوى استكمال الكمية أو استبدال الصنف",
+      "url": "https://www.yemenilaw.com/library/commercial/daawi-istikmal-al-kamiya-aw-istibdal-al-sinf/",
+      "length": 12697
+    },
+    {
+      "title": "دعاوى تنفيذ العقود التجارية",
+      "url": "https://www.yemenilaw.com/library/commercial/daawi-tanfidh-al-uqud-al-tijariya/",
+      "length": 15057
+    },
+    {
+      "title": "دعوى تنفيذ التوريد المتفق علية في العقود التجارية",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-tanfidh-al-tawrid-almtfq-aly-fy-alaqwd-al-tijariya/",
+      "length": 13459
+    },
+    {
+      "title": "دعوى تسليم بضاعة",
+      "url": "https://www.yemenilaw.com/library/commercial/dawa-taslim-bdaa/",
+      "length": 13182
+    },
+    {
+      "title": "دعاوى الأحوال الشخصية",
+      "url": "https://www.yemenilaw.com/library/personal-status/",
+      "length": 2749
+    },
+    {
+      "title": "دعاوى الأحوال الشخصية",
+      "url": "https://www.yemenilaw.com/library/personal-status/",
+      "length": 2749
+    },
+    {
+      "title": "دعوى إثبات الزواج",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-ithbat-zawaj/",
+      "length": 12710
+    },
+    {
+      "title": "دعوى صحة عقد زواج",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-sihat-aqd-zawaj/",
+      "length": 13230
+    },
+    {
+      "title": "دعوى المطالبة بالمهر",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-mutalaba-bil-mahr/",
+      "length": 8944
+    },
+    {
+      "title": "دعوى تسليم وثيقة عقد الزواج",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-taslim-wathiqat-aqd-al-zawaj/",
+      "length": 11100
+    },
+    {
+      "title": "طلب تصحيح بيانات عقد الزواج",
+      "url": "https://www.yemenilaw.com/library/personal-status/talab-tashih-bayanat-aqd-al-zawaj/",
+      "length": 11126
+    },
+    {
+      "title": "دعوى فسخ النكاح",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-faskh-nikah/",
+      "length": 16768
+    },
+    {
+      "title": "فسخ عقد الزواج للكراهية",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-faskh-nikah-lil-karahiya/",
+      "length": 14476
+    },
+    {
+      "title": "دعوى فسخ النكاح للضرر",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-faskh-nikah-lil-darar/",
+      "length": 9063
+    },
+    {
+      "title": "دعوى فسخ النكاح للهجر",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-faskh-nikah-lil-hajr/",
+      "length": 8868
+    },
+    {
+      "title": "دعوى طلاق للضرر",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-talaq-lil-darar/",
+      "length": 12046
+    },
+    {
+      "title": "دعوى الخلع",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-khul/",
+      "length": 7850
+    },
+    {
+      "title": "دعوى إثبات الطلاق",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-ithbat-talaq/",
+      "length": 10771
+    },
+    {
+      "title": "دعوى إثبات الرجعة",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-ithbat-rajah/",
+      "length": 8640
+    },
+    {
+      "title": "دعوى فسخ لعدم الإنفاق",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-faskh-li-adam-al-infaq/",
+      "length": 9842
+    },
+    {
+      "title": "دعوى النفقة الزوجية",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-nafaqa-zawjiya/",
+      "length": 10570
+    },
+    {
+      "title": "دعوى إرجاع الزوجة إلى بيت الطاعة",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-irja-alzawja-bayt-altaah/",
+      "length": 8905
+    },
+    {
+      "title": "دعوى نفقة أولاد",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-nafaqa-awlad/",
+      "length": 10397
+    },
+    {
+      "title": "دعوى زيادة نفقة",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-ziyada-nafaqa/",
+      "length": 9352
+    },
+    {
+      "title": "دعوى تخفيض نفقة",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-takhfid-nafaqa/",
+      "length": 9352
+    },
+    {
+      "title": "دعوى متجمد نفقة",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-mutajamid-nafaqa/",
+      "length": 8738
+    },
+    {
+      "title": "دعوى أجرة حضانة أو رضاعة",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-ujrat-hadana-aw-radaa/",
+      "length": 9900
+    },
+    {
+      "title": "دعوى الحضانة",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-hadana/",
+      "length": 10392
+    },
+    {
+      "title": "دعوى إسقاط الحضانة",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-isqat-hadana/",
+      "length": 10085
+    },
+    {
+      "title": "دعوى تسليم صغير",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-taslim-saghir/",
+      "length": 9791
+    },
+    {
+      "title": "طلب تنظيم رؤية وزيارة",
+      "url": "https://www.yemenilaw.com/library/personal-status/talab-tanzim-ruya-wa-ziyara/",
+      "length": 8433
+    },
+    {
+      "title": "طلب منع سفر المحضون",
+      "url": "https://www.yemenilaw.com/library/personal-status/talab-mana-safar-al-mahdun/",
+      "length": 8625
+    },
+    {
+      "title": "دعوى إثبات نسب",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-ithbat-nasab/",
+      "length": 10999
+    },
+    {
+      "title": "دعوى نفي نسب وفق الضوابط القانونية",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-nafy-nasab/",
+      "length": 10044
+    },
+    {
+      "title": "طلب إثبات بنوة",
+      "url": "https://www.yemenilaw.com/library/personal-status/talab-ithbat-bunuwa/",
+      "length": 11025
+    },
+    {
+      "title": "طلب استخراج أو تصحيح بيانات ميلاد",
+      "url": "https://www.yemenilaw.com/library/personal-status/talab-istikhraj-aw-tashih-bayanat-milad/",
+      "length": 9906
+    },
+    {
+      "title": "دعوى تعديل اسم أو لقب",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-tadil-ism-aw-laqab/",
+      "length": 6467
+    },
+    {
+      "title": "طلب إشهاد وفاة ووراثة",
+      "url": "https://www.yemenilaw.com/library/personal-status/talab-ishhad-wafah-wa-waratha/",
+      "length": 20245
+    },
+    {
+      "title": "طلب تحديد أنصبة الورثة",
+      "url": "https://www.yemenilaw.com/library/personal-status/talab-tahdid-ansibat-al-waratha/",
+      "length": 20225
+    },
+    {
+      "title": "دعوى قسمة تركة",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-qisma-tarika/",
+      "length": 19485
+    },
+    {
+      "title": "دعوى الوصية الواجبة",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-wasiya-wajiba/",
+      "length": 7673
+    },
+    {
+      "title": "دعوى اختصاص مال من التركة",
+      "url": "https://www.yemenilaw.com/library/personal-status/ikhtisas-dawa-qisma-tarika/",
+      "length": 6845
+    },
+    {
+      "title": "دعوى بطلان وصية",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-butlan-wasiya/",
+      "length": 13954
+    },
+    {
+      "title": "دعوى تنفيذ وصية",
+      "url": "https://www.yemenilaw.com/library/personal-status/dawa-tanfidh-wasiya/",
+      "length": 13954
+    },
+    {
+      "title": "طلب إثبات غيبة أو فقدان",
+      "url": "https://www.yemenilaw.com/library/personal-status/talab-ithbat-ghayba-aw-faqdan/",
+      "length": 9095
+    },
+    {
+      "title": "طلب حصر التركة",
+      "url": "https://www.yemenilaw.com/library/personal-status/talab-hasr-al-tarika/",
+      "length": 15504
+    },
+    {
+      "title": "طلب وضع الأختام على التركة",
+      "url": "https://www.yemenilaw.com/library/personal-status/talab-wad-al-akhtam-ala-al-tarika/",
+      "length": 15840
+    },
+    {
+      "title": "طلب رفع الأختام عن التركة",
+      "url": "https://www.yemenilaw.com/library/personal-status/talab-raf-al-akhtam-an-al-tarika/",
+      "length": 15812
+    },
+    {
+      "title": "طلب الإذن ببيع مال من التركة لسداد دين",
+      "url": "https://www.yemenilaw.com/library/personal-status/talab-idhn-bi-bay-mal-min-al-tarika-li-sadad-dayn/",
+      "length": 13542
+    },
+    {
+      "title": "طلب تعيين أو عزل منفذ وصية",
+      "url": "https://www.yemenilaw.com/library/personal-status/talab-tayin-aw-azl-munafidh-wasiya/",
+      "length": 12570
+    },
+    {
+      "title": "دعوى النفقة",
+      "url": "https://www.yemenilaw.com/library/personal-status/sighat-dawa-nafaqa/",
+      "length": 10473
+    },
+    {
+      "title": "دعوى حضانة",
+      "url": "https://www.yemenilaw.com/library/personal-status/sighat-dawa-hadana/",
+      "length": 10487
+    },
+    {
+      "title": "دعوى فسخ عقد النكاح",
+      "url": "https://www.yemenilaw.com/library/personal-status/sighat-dawa-faskh-nikah/",
+      "length": 10893
+    },
+    {
+      "title": "دعوى إثبات الزواج",
+      "url": "https://www.yemenilaw.com/library/personal-status/sighat-dawa-ithbat-zawaj/",
+      "length": 12827
+    },
+    {
+      "title": "طلب حصر ورثة",
+      "url": "https://www.yemenilaw.com/library/personal-status/sighat-talab-hasr-waratha/",
+      "length": 20060
+    },
+    {
+      "title": "الجرائم الجنائية",
+      "url": "https://www.yemenilaw.com/library/criminal/",
+      "length": 3043
+    },
+    {
+      "title": "الجرائم الجنائية",
+      "url": "https://www.yemenilaw.com/library/criminal/",
+      "length": 3043
+    },
+    {
+      "title": "القتل العمد",
+      "url": "https://www.yemenilaw.com/library/criminal/al-qatl-al-amd/",
+      "length": 18277
+    },
+    {
+      "title": "القتل شبه العمد",
+      "url": "https://www.yemenilaw.com/library/criminal/al-qatl-shibh-al-amd/",
+      "length": 14844
+    },
+    {
+      "title": "القتل الخطأ",
+      "url": "https://www.yemenilaw.com/library/criminal/al-qatl-khata/",
+      "length": 16274
+    },
+    {
+      "title": "الإجهاض",
+      "url": "https://www.yemenilaw.com/library/criminal/al-ijhad/",
+      "length": 23178
+    },
+    {
+      "title": "الاعتداء المفضي إلى الموت",
+      "url": "https://www.yemenilaw.com/library/criminal/al-iatidaa-al-mufdi-ila-al-mawt/",
+      "length": 20163
+    },
+    {
+      "title": "الإصابة خطأ",
+      "url": "https://www.yemenilaw.com/library/criminal/al-isaba-khata/",
+      "length": 20941
+    },
+    {
+      "title": "الشروع بالقتل",
+      "url": "https://www.yemenilaw.com/library/criminal/al-shuruu-bil-qatl/",
+      "length": 19829
+    },
+    {
+      "title": "الإيذاء العمدي",
+      "url": "https://www.yemenilaw.com/library/criminal/al-idhaa-al-amdi/",
+      "length": 20819
+    },
+    {
+      "title": "الاعتداء على سلامة الغير",
+      "url": "https://www.yemenilaw.com/library/criminal/al-iatidaa-ala-salamat-al-ghayr/",
+      "length": 13124
+    },
+    {
+      "title": "جرائم أمن الدولة",
+      "url": "https://www.yemenilaw.com/library/criminal/jaraim-amn-al-dawla/",
+      "length": 8371
+    },
+    {
+      "title": "التجسس",
+      "url": "https://www.yemenilaw.com/library/criminal/al-tajassus/",
+      "length": 6646
+    },
+    {
+      "title": "الخيانة",
+      "url": "https://www.yemenilaw.com/library/criminal/al-khiyana-al-wataniya/",
+      "length": 5179
+    },
+    {
+      "title": "التمرد أو العصيان المسلح",
+      "url": "https://www.yemenilaw.com/library/criminal/al-tamarrud-aw-al-isyan-al-musallah/",
+      "length": 5893
+    },
+    {
+      "title": "الإرهاب",
+      "url": "https://www.yemenilaw.com/library/criminal/al-irhab/",
+      "length": 2694
+    },
+    {
+      "title": "حيازة ونشر الصور المسيئة لسمعة البلاد",
+      "url": "https://www.yemenilaw.com/library/criminal/hiyazat-wa-nashr-al-suwar-al-musia-lisumat-al-bilad/",
+      "length": 6649
+    },
+    {
+      "title": "خيانة الأمانة",
+      "url": "https://www.yemenilaw.com/library/criminal/khiyanat-al-amana/",
+      "length": 19191
+    },
+    {
+      "title": "النصب والاحتيال",
+      "url": "https://www.yemenilaw.com/library/criminal/al-nasb-wal-ihtiyal/",
+      "length": 17188
+    },
+    {
+      "title": "الاعتداء على ملك الغير",
+      "url": "https://www.yemenilaw.com/library/criminal/al-iatidaa-ala-milk-al-ghayr/",
+      "length": 18526
+    },
+    {
+      "title": "الإضرار بالمال",
+      "url": "https://www.yemenilaw.com/library/criminal/al-idrar-bil-mal/",
+      "length": 18276
+    },
+    {
+      "title": "غسل الأموال",
+      "url": "https://www.yemenilaw.com/library/criminal/ghasl-al-amwal/",
+      "length": 6714
+    },
+    {
+      "title": "استغلال الحاجة",
+      "url": "https://www.yemenilaw.com/library/criminal/istighlal-al-haja/",
+      "length": 18323
+    },
+    {
+      "title": "الاختلاس",
+      "url": "https://www.yemenilaw.com/library/criminal/al-ikhtilas/",
+      "length": 20967
+    },
+    {
+      "title": "الاستيلاء على محل تجاري بالقوة",
+      "url": "https://www.yemenilaw.com/library/criminal/al-istilaa-ala-mahal-tijari-bil-quwwa/",
+      "length": 5257
+    },
+    {
+      "title": "شراء المسروقات",
+      "url": "https://www.yemenilaw.com/library/criminal/shiraa-al-masruqat/",
+      "length": 18706
+    },
+    {
+      "title": "شيك بدون رصيد",
+      "url": "https://www.yemenilaw.com/library/criminal/shayk-bidun-rasid/",
+      "length": 19486
+    },
+    {
+      "title": "مطل الغني",
+      "url": "https://www.yemenilaw.com/library/criminal/matl-al-ghani/",
+      "length": 19441
+    },
+    {
+      "title": "نقل وإزالة الحدود",
+      "url": "https://www.yemenilaw.com/library/criminal/naql-wa-izalat-al-hudud/",
+      "length": 18662
+    },
+    {
+      "title": "السرقة الحدية",
+      "url": "https://www.yemenilaw.com/library/criminal/al-sariqa-al-haddiya/",
+      "length": 22939
+    },
+    {
+      "title": "السرقة بالإكراه",
+      "url": "https://www.yemenilaw.com/library/criminal/al-sariqa-bil-ikrah/",
+      "length": 20054
+    },
+    {
+      "title": "السرقة غير الحدية",
+      "url": "https://www.yemenilaw.com/library/criminal/al-sariqa-ghayr-al-haddiya/",
+      "length": 5720
+    },
+    {
+      "title": "الحرابة",
+      "url": "https://www.yemenilaw.com/library/criminal/al-hiraba/",
+      "length": 21053
+    },
+    {
+      "title": "تزوير العملة",
+      "url": "https://www.yemenilaw.com/library/criminal/tazwir-al-umla/",
+      "length": 4247
+    },
+    {
+      "title": "تزييف الأختام والعلامات الرسمية",
+      "url": "https://www.yemenilaw.com/library/criminal/tazyif-al-akhtam-wal-alamat-al-rasmiya/",
+      "length": 5796
+    },
+    {
+      "title": "التزوير",
+      "url": "https://www.yemenilaw.com/library/criminal/al-tazwir/",
+      "length": 14049
+    },
+    {
+      "title": "انتحال صفة",
+      "url": "https://www.yemenilaw.com/library/criminal/intihal-sifa/",
+      "length": 15712
+    },
+    {
+      "title": "الرشوة",
+      "url": "https://www.yemenilaw.com/library/criminal/al-rishwa/",
+      "length": 7803
+    },
+    {
+      "title": "شهادة الزور",
+      "url": "https://www.yemenilaw.com/library/criminal/shahadat-al-zur/",
+      "length": 4899
+    },
+    {
+      "title": "محاولة التأثير على الشاهد",
+      "url": "https://www.yemenilaw.com/library/criminal/muhawalat-al-tathir-ala-al-shahid/",
+      "length": 4373
+    },
+    {
+      "title": "الامتناع عن أداء الشهادة",
+      "url": "https://www.yemenilaw.com/library/criminal/al-imtina-an-adaa-al-shahada/",
+      "length": 4388
+    },
+    {
+      "title": "تضليل القضاء",
+      "url": "https://www.yemenilaw.com/library/criminal/tadlil-al-qada/",
+      "length": 4306
+    },
+    {
+      "title": "البلاغ الكاذب",
+      "url": "https://www.yemenilaw.com/library/criminal/al-balaghal-kadhib/",
+      "length": 4387
+    },
+    {
+      "title": "اليمين الكاذبة",
+      "url": "https://www.yemenilaw.com/library/criminal/al-yamin-al-kadhiba/",
+      "length": 4296
+    },
+    {
+      "title": "إهانة موظف عام",
+      "url": "https://www.yemenilaw.com/library/criminal/ihanat-muwazzaf-aam/",
+      "length": 4307
+    },
+    {
+      "title": "مقاومة السلطات",
+      "url": "https://www.yemenilaw.com/library/criminal/muqawamat-al-sulutat/",
+      "length": 6299
+    },
+    {
+      "title": "الهروب من الحبس",
+      "url": "https://www.yemenilaw.com/library/criminal/al-hurub-min-al-habs/",
+      "length": 4591
+    },
+    {
+      "title": "إيواء الفارين من العدالة",
+      "url": "https://www.yemenilaw.com/library/criminal/iwa-al-farrin-min-al-adala/",
+      "length": 4624
+    },
+    {
+      "title": "الإكراه على الاعتراف",
+      "url": "https://www.yemenilaw.com/library/criminal/al-ikrah-ala-al-iitiraf/",
+      "length": 5945
+    },
+    {
+      "title": "إتلاف واختلاس المحجوزات قضائيا",
+      "url": "https://www.yemenilaw.com/library/criminal/itlaf-wa-ikhtilas-al-mahjuzat-qadaiyan/",
+      "length": 6105
+    },
+    {
+      "title": "حجز حرية",
+      "url": "https://www.yemenilaw.com/library/criminal/hajz-hurriya/",
+      "length": 9406
+    },
+    {
+      "title": "انتهاك حرمة مسكن",
+      "url": "https://www.yemenilaw.com/library/criminal/intihak-hurmat-maskan/",
+      "length": 6602
+    },
+    {
+      "title": "الاعتداء على حرمة الحياة الخاصة",
+      "url": "https://www.yemenilaw.com/library/criminal/al-iatidaa-ala-hurmat-al-hayah-al-khasa-tasjil-taswir-tajassus/",
+      "length": 6126
+    },
+    {
+      "title": "الابتزاز",
+      "url": "https://www.yemenilaw.com/library/criminal/al-ibtizaz/",
+      "length": 4775
+    },
+    {
+      "title": "إفشاء أسرار المهنة",
+      "url": "https://www.yemenilaw.com/library/criminal/ifshaa-asrar-al-mihna/",
+      "length": 4585
+    },
+    {
+      "title": "الامتناع عن تسليم صغير إلى حاضنته الشرعية",
+      "url": "https://www.yemenilaw.com/library/criminal/al-imtinaa-an-taslim-saghir-ila-hadinatihi-al-sharia/",
+      "length": 5326
+    },
+    {
+      "title": "الاغتصاب",
+      "url": "https://www.yemenilaw.com/library/criminal/al-ightisab/",
+      "length": 5982
+    },
+    {
+      "title": "هتك العرض",
+      "url": "https://www.yemenilaw.com/library/criminal/hatk-al-ird/",
+      "length": 4841
+    },
+    {
+      "title": "التحرش",
+      "url": "https://www.yemenilaw.com/library/criminal/al-taharush/",
+      "length": 4684
+    },
+    {
+      "title": "السب والشتم",
+      "url": "https://www.yemenilaw.com/library/criminal/al-sabb-wal-shatm/",
+      "length": 5466
+    },
+    {
+      "title": "التشهير",
+      "url": "https://www.yemenilaw.com/library/criminal/al-tashhir/",
+      "length": 17002
+    },
+    {
+      "title": "السحاق",
+      "url": "https://www.yemenilaw.com/library/criminal/al-sihaq/",
+      "length": 4256
+    },
+    {
+      "title": "اللواط",
+      "url": "https://www.yemenilaw.com/library/criminal/al-liwat/",
+      "length": 5466
+    },
+    {
+      "title": "الفجور والدعارة",
+      "url": "https://www.yemenilaw.com/library/criminal/al-fujur-wal-daara/",
+      "length": 4807
+    },
+    {
+      "title": "الفعل الفاحش",
+      "url": "https://www.yemenilaw.com/library/criminal/al-fil-al-fahish/",
+      "length": 5973
+    },
+    {
+      "title": "الديوث",
+      "url": "https://www.yemenilaw.com/library/criminal/al-dayyuth/",
+      "length": 4350
+    },
+    {
+      "title": "المساس بحرمة الزواج (الخيانة الزوجية)",
+      "url": "https://www.yemenilaw.com/library/criminal/al-masas-bihurmat-al-zawaj-al-khiyana-al-zawjiya/",
+      "length": 4988
+    },
+    {
+      "title": "إتلاف الطريق العام",
+      "url": "https://www.yemenilaw.com/library/criminal/itlaf-al-tariq-al-aam/",
+      "length": 5717
+    },
+    {
+      "title": "الاعتداء على طريق",
+      "url": "https://www.yemenilaw.com/library/criminal/al-iatidaa-ala-tariq/",
+      "length": 5683
+    },
+    {
+      "title": "تعطيل المنفعة",
+      "url": "https://www.yemenilaw.com/library/criminal/tatil-al-manfaa/",
+      "length": 4878
+    },
+    {
+      "title": "تعطيل المنفعة العامة",
+      "url": "https://www.yemenilaw.com/library/criminal/tatil-al-manfaa-al-aamma/",
+      "length": 4673
+    },
+    {
+      "title": "تكدير الأمن العام",
+      "url": "https://www.yemenilaw.com/library/criminal/takdir-al-amn-al-aam/",
+      "length": 5811
+    },
+    {
+      "title": "الحريق والتفجير",
+      "url": "https://www.yemenilaw.com/library/criminal/al-hariq-wal-tafjir/",
+      "length": 4743
+    },
+    {
+      "title": "الاتجار بالسلاح",
+      "url": "https://www.yemenilaw.com/library/criminal/al-itijar-bil-silah/",
+      "length": 2549
+    },
+    {
+      "title": "حمل السلاح بدون ترخيص",
+      "url": "https://www.yemenilaw.com/library/criminal/haml-al-silah-bidun-tarkhis/",
+      "length": 2602
+    },
+    {
+      "title": "جرائم المخدرات",
+      "url": "https://www.yemenilaw.com/library/criminal/jaraim-al-mukhadirat/",
+      "length": 4364
+    },
+    {
+      "title": "ترك الأطفال أو تعريضهم للخطر",
+      "url": "https://www.yemenilaw.com/library/criminal/tark-al-atfal-aw-taridhihim-lil-khatar/",
+      "length": 5562
+    },
+    {
+      "title": "انتهاك حرمة الموتى أو القبور",
+      "url": "https://www.yemenilaw.com/library/criminal/intihak-hurmat-al-mawta-aw-al-qubur/",
+      "length": 4951
+    },
+    {
+      "title": "عرقلة سير العمل",
+      "url": "https://www.yemenilaw.com/library/criminal/arqalat-sayr-al-amal/",
+      "length": 6119
+    },
+    {
+      "title": "الدعاوى المستعجلة",
+      "url": "https://www.yemenilaw.com/library/urgent/",
+      "length": 1494
+    },
+    {
+      "title": "الدعاوى المستعجلة",
+      "url": "https://www.yemenilaw.com/library/urgent/",
+      "length": 1494
+    },
+    {
+      "title": "دعوى مستعجلة سماع شاهد",
+      "url": "https://www.yemenilaw.com/library/urgent/dawa-mustaajila-samaa-shahid/",
+      "length": 13307
+    },
+    {
+      "title": "دعوى مستعجلة إثبات حالة",
+      "url": "https://www.yemenilaw.com/library/urgent/dawa-mustaajila-ithbat-hala/",
+      "length": 15660
+    },
+    {
+      "title": "دعوى مستعجلة استرداد حيازة",
+      "url": "https://www.yemenilaw.com/library/urgent/dawa-mustaajila-istirdad-hiyaza/",
+      "length": 9505
+    },
+    {
+      "title": "دعوى مستعجلة منع تعرض",
+      "url": "https://www.yemenilaw.com/library/urgent/dawa-mustaajila-mana-taarrud/",
+      "length": 8817
+    },
+    {
+      "title": "دعوى مستعجلة منع استحداثات",
+      "url": "https://www.yemenilaw.com/library/urgent/dawa-mustaajila-mana-al-istihdathat/",
+      "length": 8364
+    },
+    {
+      "title": "دعوى مستعجلة فرض الحراسة القضائية",
+      "url": "https://www.yemenilaw.com/library/urgent/dawa-mustaajila-fard-al-hirasa-al-qadaiya/",
+      "length": 12050
+    },
+    {
+      "title": "دعوى مستعجلة حجز تحفظي",
+      "url": "https://www.yemenilaw.com/library/urgent/dawa-mustaajila-hajz-tahaffuzi/",
+      "length": 9969
+    },
+    {
+      "title": "دعوى مستعجلة منع من السفر",
+      "url": "https://www.yemenilaw.com/library/urgent/dawa-mustaajila-mana-min-al-safar/",
+      "length": 9383
+    },
+    {
+      "title": "الدعاوى العمالية",
+      "url": "https://www.yemenilaw.com/library/labor/",
+      "length": 1026
+    },
+    {
+      "title": "الدعاوى العمالية",
+      "url": "https://www.yemenilaw.com/library/labor/",
+      "length": 1026
+    },
+    {
+      "title": "قانون العمل اليمني",
+      "url": "https://www.yemenilaw.com/library/labor/qanun-al-amal/",
+      "length": 93428
+    },
+    {
+      "title": "دعوى الحقوق العمالية",
+      "url": "https://www.yemenilaw.com/library/labor/dawa-huqooq-ummaliya/",
+      "length": 19539
+    },
+    {
+      "title": "دعوى الأجور والمستحقات العمالية",
+      "url": "https://www.yemenilaw.com/library/labor/dawa-ujur-wa-mustahaqat/",
+      "length": 6914
+    },
+    {
+      "title": "دعوى مكافأة نهاية الخدمة",
+      "url": "https://www.yemenilaw.com/library/labor/dawa-mukafat-nihayat-khidma/",
+      "length": 4519
+    },
+    {
+      "title": "دعوى الفصل التعسفي",
+      "url": "https://www.yemenilaw.com/library/labor/dawa-fasl-taasufi/",
+      "length": 8090
+    },
+    {
+      "title": "إجراءات التقاضي في القانون اليمني",
+      "url": "https://www.yemenilaw.com/library/litigation-procedures/",
+      "length": 1542
+    },
+    {
+      "title": "إجراءات التقاضي في القانون اليمني",
+      "url": "https://www.yemenilaw.com/library/litigation-procedures/",
+      "length": 1542
+    },
+    {
+      "title": "طريقة رفع الدعوى القضائية",
+      "url": "https://www.yemenilaw.com/library/litigation-procedures/filing-claim/",
+      "length": 16709
+    },
+    {
+      "title": "طريقة إعلان الخصوم وتبليغهم",
+      "url": "https://www.yemenilaw.com/library/litigation-procedures/service-of-process/",
+      "length": 18682
+    },
+    {
+      "title": "طريقة تقديم الأمر على عريضة",
+      "url": "https://www.yemenilaw.com/library/litigation-procedures/order-on-petition/",
+      "length": 21720
+    },
+    {
+      "title": "طريقة التظلم من الأمر على عريضة",
+      "url": "https://www.yemenilaw.com/library/litigation-procedures/grievance-order-petition/",
+      "length": 16573
+    },
+    {
+      "title": "طريقة تقديم الدعوى المستعجلة",
+      "url": "https://www.yemenilaw.com/library/litigation-procedures/urgent-claim/",
+      "length": 2673
+    },
+    {
+      "title": "طلب الحجز التحفظي",
+      "url": "https://www.yemenilaw.com/library/litigation-procedures/protective-attachment/",
+      "length": 2552
+    },
+    {
+      "title": "طريقة تقديم الدفع بعدم الاختصاص",
+      "url": "https://www.yemenilaw.com/library/litigation-procedures/jurisdiction-objection/",
+      "length": 27857
+    },
+    {
+      "title": "طريقة تقديم مذكرة جوابية",
+      "url": "https://www.yemenilaw.com/library/litigation-procedures/answer-memorandum/",
+      "length": 2507
+    },
+    {
+      "title": "طريقة طلب ندب خبير",
+      "url": "https://www.yemenilaw.com/library/litigation-procedures/expert-appointment/",
+      "length": 2693
+    },
+    {
+      "title": "طريقة الطعن بالاستئناف",
+      "url": "https://www.yemenilaw.com/library/litigation-procedures/appeal/",
+      "length": 34321
+    },
+    {
+      "title": "طريقة الطعن بالنقض",
+      "url": "https://www.yemenilaw.com/library/litigation-procedures/cassation/",
+      "length": 35465
+    },
+    {
+      "title": "طريقة تقديم التماس إعادة النظر",
+      "url": "https://www.yemenilaw.com/library/litigation-procedures/reconsideration-petition/",
+      "length": 21624
+    },
+    {
+      "title": "طريقة فتح ملف تنفيذ حكم",
+      "url": "https://www.yemenilaw.com/library/litigation-procedures/execution-file/",
+      "length": 2646
+    },
+    {
+      "title": "طريقة تقديم منازعة تنفيذية (الاستشكال)",
+      "url": "https://www.yemenilaw.com/library/litigation-procedures/execution-dispute/",
+      "length": 17240
+    },
+    {
+      "title": "طريقة طلب وقف التنفيذ",
+      "url": "https://www.yemenilaw.com/library/litigation-procedures/stay-of-execution/",
+      "length": 26709
+    },
+    {
+      "title": "مواعيد الإجراءات القانونية في القانون اليمني",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/",
+      "length": 3568
+    },
+    {
+      "title": "مواعيد الإجراءات القانونية في القانون اليمني",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/",
+      "length": 3568
+    },
+    {
+      "title": "إعلان الدعوى بعد رفعها",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/claim-announcement-104/",
+      "length": 3033
+    },
+    {
+      "title": "مواعيد الحضور أمام المحاكم",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/appearance-deadlines-109/",
+      "length": 2437
+    },
+    {
+      "title": "ميعاد المسافة",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/distance-period-110/",
+      "length": 2092
+    },
+    {
+      "title": "شطب الدعوى عند تخلف الخصوم",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/case-strikeout-112/",
+      "length": 1912
+    },
+    {
+      "title": "طلب رد القاضي",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/judge-recusal-135/",
+      "length": 1749
+    },
+    {
+      "title": "سقوط الأمر الصادر على عريضة",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/petition-order-expiry-252/",
+      "length": 1734
+    },
+    {
+      "title": "التظلم من الأمر",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/grievance-order-262/",
+      "length": 1904
+    },
+    {
+      "title": "تكليف المدين بالوفاء قبل أمر الأداء",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/payment-order-notice-264/",
+      "length": 1858
+    },
+    {
+      "title": "أمر الأداء",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/performance-order-attachment-271/",
+      "length": 23872
+    },
+    {
+      "title": "الطعن في أحكام الوقف والاختصاص والإحالة",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/interim-judgment-appeal-274/",
+      "length": 2214
+    },
+    {
+      "title": "ميعاد الطعن العام",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/general-appeal-period-275/",
+      "length": 1659
+    },
+    {
+      "title": "وقف ميعاد الطعن بسبب الموت أو فقد الأهلية أو زوال الصفة",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/appeal-period-suspension-277/",
+      "length": 2295
+    },
+    {
+      "title": "التماس إعادة النظر",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/reconsideration-petition-306/",
+      "length": 2322
+    },
+    {
+      "title": "رفع الدعوى الموضوعية بعد الأمر",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/substantive-lawsuit-after-order-403/",
+      "length": 1729
+    },
+    {
+      "title": "إعلان المحجوز عليه بعد إعلان المحجوز لديه",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/debtor-notice-after-garnishee-409/",
+      "length": 1878
+    },
+    {
+      "title": "طلب إصدار الأمر بالبيع وصدور الأمر بالبيع وسقوط الحجز",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/sale-order-attachment-expiry-448/",
+      "length": 3078
+    },
+    {
+      "title": "الطعن في أحكام منازعات التنفيذ",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/execution-dispute-appeal-501/",
+      "length": 2224
+    },
+    {
+      "title": "سقوط أمر القبض",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/arrest-warrant-expiry-74/",
+      "length": 1561
+    },
+    {
+      "title": "تقديم المقبوض عليه للقضاء ومدة الحبس الاحتياطي دون أمر قضائي",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/arrested-person-presentation-76/",
+      "length": 2429
+    },
+    {
+      "title": "الطعن في قرار الحفظ",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/appeal-archive-order-113/",
+      "length": 1865
+    },
+    {
+      "title": "مدة حجز النيابة على ذمة التحقيق",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/prosecution-detention-investigation-176/",
+      "length": 1863
+    },
+    {
+      "title": "تقديم أدلة القذف أو السب بطريق النشر وتأجيل الدعوى",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/libel-publication-evidence-182/",
+      "length": 2899
+    },
+    {
+      "title": "تكليف الخصوم بالحضور أمام المحكمة",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/criminal-summons-312/",
+      "length": 2632
+    },
+    {
+      "title": "الاستئناف الجزائي",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/criminal-appeal-421/",
+      "length": 2434
+    },
+    {
+      "title": "الاستئناف المقابل",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/counter-appeal-424/",
+      "length": 1714
+    },
+    {
+      "title": "الطعن بالنقض الجزائي",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/cassation-criminal-437/",
+      "length": 1661
+    },
+    {
+      "title": "إعلان أسباب الطعن بالنقض والرد عليها",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/cassation-reasons-service-439/",
+      "length": 2167
+    },
+    {
+      "title": "إرسال حكم الإعدام أو الحد أو القصاص لرئيس الجمهورية",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/death-penalty-presidential-referral-478/",
+      "length": 2209
+    },
+    {
+      "title": "حساب السنة والشهر في قانون العمل",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/labor-year-month-9/",
+      "length": 1892
+    },
+    {
+      "title": "الإبلاغ عن فرص العمل وإعادة شهادة القيد والترشيح",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/job-vacancy-reporting-14/",
+      "length": 3036
+    },
+    {
+      "title": "التحقيق مع العامل والتظلم من نتيجة التحقيق",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/worker-investigation-grievance-97/",
+      "length": 2594
+    },
+    {
+      "title": "أول جلسة أمام اللجنة التحكيمية والفصل في الدعوى",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/labor-arbitration-first-session-137/",
+      "length": 2113
+    },
+    {
+      "title": "استئناف قرار اللجنة التحكيمية والفصل في الاستئناف",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/labor-appeal-139/",
+      "length": 2558
+    },
+    {
+      "title": "رد المحكم والفصل في طلب الرد والطعن في قرار الرفض",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/arbitrator-recusal-24/",
+      "length": 2535
+    },
+    {
+      "title": "الطعن في حكم لجنة التحكيم بشأن الاختصاص",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/arbitration-jurisdiction-appeal-28/",
+      "length": 1923
+    },
+    {
+      "title": "إيداع حكم التحكيم",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/arbitration-award-deposit-50/",
+      "length": 1892
+    },
+    {
+      "title": "طلب تصحيح أو تفسير حكم التحكيم",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/arbitration-award-correction-52/",
+      "length": 2468
+    },
+    {
+      "title": "دعوى بطلان حكم التحكيم",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/arbitration-nullity-action-54/",
+      "length": 2324
+    },
+    {
+      "title": "تقديم الكمبيالة للقبول إذا كانت مستحقة بعد مدة من الاطلاع",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/bill-acceptance-sight-459/",
+      "length": 2003
+    },
+    {
+      "title": "تقديم الكمبيالة المستحقة لدى الاطلاع للوفاء",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/bill-payable-at-sight-471/",
+      "length": 2421
+    },
+    {
+      "title": "طلب مهلة الوفاء عند الرجوع على الضامنين",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/bill-payment-grace-489/",
+      "length": 2528
+    },
+    {
+      "title": "عمل بروتستو عدم الوفاء",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/protest-nonpayment-493/",
+      "length": 1920
+    },
+    {
+      "title": "إخطار الساحب والمظهرين بعدم القبول أو عدم الوفاء",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/bill-notice-nonacceptance-nonpayment-497/",
+      "length": 3178
+    },
+    {
+      "title": "تقديم الشيك للوفاء",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/cheque-presentment-550/",
+      "length": 2164
+    },
+    {
+      "title": "دعوى استحقاق الشيك بعد المعارضة",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/cheque-entitlement-action-557/",
+      "length": 2698
+    },
+    {
+      "title": "طلب المعارض الإذن له في قبض قيمة الشيك",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/cheque-opposition-permission-558/",
+      "length": 2289
+    },
+    {
+      "title": "تقديم مستندات الديون في التفليسة",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/bankruptcy-debt-documents-669/",
+      "length": 2290
+    },
+    {
+      "title": "المنازعة في الديون المدرجة في قائمة التفليسة",
+      "url": "https://www.yemenilaw.com/library/legal-procedure-deadlines/bankruptcy-debt-objection-673/",
+      "length": 2176
+    }
+  ],
+  "contracts": [
+    {
+      "title": "نموذج موافقة على البناء",
+      "url": "https://www.yemenilaw.com/contracts/mwafqa-balbna/",
+      "length": 11243
+    },
+    {
+      "title": "نموذج عقد بيع محل تجاري",
+      "url": "https://www.yemenilaw.com/contracts/aqd-bay-mahal-tijari/",
+      "length": 13786
+    },
+    {
+      "title": "نموذج عقد وكالة بالعمولة",
+      "url": "https://www.yemenilaw.com/contracts/aqd-wkala-balamwla/",
+      "length": 13003
+    },
+    {
+      "title": "نموذج عقد تنازل عن محل صرافة",
+      "url": "https://www.yemenilaw.com/contracts/tnazl-an-mhl-srafa/",
+      "length": 14158
+    },
+    {
+      "title": "نموذج عقد بيع شقة سكنية",
+      "url": "https://www.yemenilaw.com/contracts/aqd-bay-shaqqa-sakaniya/",
+      "length": 12619
+    },
+    {
+      "title": "نموذج موافقة سفر واستصدار جواز سفر",
+      "url": "https://www.yemenilaw.com/contracts/mwafqa-sfr-astsdar-jwaz-sfr/",
+      "length": 11118
+    },
+    {
+      "title": "نموذج عقد هبة شرعية",
+      "url": "https://www.yemenilaw.com/contracts/hba/",
+      "length": 11214
+    },
+    {
+      "title": "نموذج عقد قرض تجاري مضمون برهن",
+      "url": "https://www.yemenilaw.com/contracts/aqd-qrd-tjary-mdmwn-brhn/",
+      "length": 10550
+    },
+    {
+      "title": "نموذج وصية شرعية",
+      "url": "https://www.yemenilaw.com/contracts/alwsya/",
+      "length": 10039
+    },
+    {
+      "title": "نموذج وقف شرعي خيري",
+      "url": "https://www.yemenilaw.com/contracts/alwqf/",
+      "length": 10563
+    },
+    {
+      "title": "نموذج فصل قسمة جامع",
+      "url": "https://www.yemenilaw.com/contracts/fsl-qsma-jama/",
+      "length": 11210
+    },
+    {
+      "title": "نموذج فصل قسمة لوارث",
+      "url": "https://www.yemenilaw.com/contracts/fsl-qsma-lwryth/",
+      "length": 11824
+    },
+    {
+      "title": "نموذج عقد إيجار سكني",
+      "url": "https://www.yemenilaw.com/contracts/aqd-ijar-sakan/",
+      "length": 10977
+    },
+    {
+      "title": "نموذج عقد إيجار محل تجاري",
+      "url": "https://www.yemenilaw.com/contracts/aqd-ijar-mahal-tijari/",
+      "length": 11070
+    },
+    {
+      "title": "نموذج عقد إيجار أرض زراعية",
+      "url": "https://www.yemenilaw.com/contracts/aqd-iyjar-ard-zraaya/",
+      "length": 10463
+    },
+    {
+      "title": "نموذج بصيرة بيع أرض حر",
+      "url": "https://www.yemenilaw.com/contracts/bsyra-bya-ard-hr/",
+      "length": 13141
+    },
+    {
+      "title": "نموذج وكالة عامة شرعية",
+      "url": "https://www.yemenilaw.com/contracts/wakala-amma/",
+      "length": 10265
+    },
+    {
+      "title": "نموذج وكالة بالخصومة القضائية",
+      "url": "https://www.yemenilaw.com/contracts/wakala-bil-khusuma/",
+      "length": 9907
+    },
+    {
+      "title": "نموذج إلغاء وكالة وعزل وكيل",
+      "url": "https://www.yemenilaw.com/contracts/ilgha-wkala-azl-wkyl/",
+      "length": 10020
+    },
+    {
+      "title": "نموذج عقد رهن مقابل دين",
+      "url": "https://www.yemenilaw.com/contracts/aqd-alrhn/",
+      "length": 10791
+    },
+    {
+      "title": "نموذج كفالة بالمال (الضمين المسلم)",
+      "url": "https://www.yemenilaw.com/contracts/alkfala-balmal-aldmyn-almslm/",
+      "length": 10305
+    },
+    {
+      "title": "نموذج كفالة بالبدن (كفالة الوجه والضمين الحضوري)",
+      "url": "https://www.yemenilaw.com/contracts/alkfala-balbdn-kfala-alwjh-aldmyn-alhdwry/",
+      "length": 9688
+    },
+    {
+      "title": "نموذج اتفاق تحكيم",
+      "url": "https://www.yemenilaw.com/contracts/atfaq-althkym/",
+      "length": 10562
+    },
+    {
+      "title": "نموذج عقد عمل (أجير خاص)",
+      "url": "https://www.yemenilaw.com/contracts/aqd-alaml-ajyr-khas/",
+      "length": 12326
+    },
+    {
+      "title": "نموذج إقرار بدين مالي",
+      "url": "https://www.yemenilaw.com/contracts/iqrar-bidayn/",
+      "length": 10030
+    },
+    {
+      "title": "نموذج وثيقة تنازل عن قضية مرورية",
+      "url": "https://www.yemenilaw.com/contracts/wthyqa-tnazl-an-qdya-mrwrya/",
+      "length": 10310
+    },
+    {
+      "title": "نموذج تنازل عن الديات والأروش وتعويضات حادث مروري",
+      "url": "https://www.yemenilaw.com/contracts/tnazl-an-aldyat-walarwsh-waltawydat-alnatja-an-hadth-mrwry/",
+      "length": 10352
+    },
+    {
+      "title": "نموذج وصية بإقعاد ورثة الابن مقام أبيهم",
+      "url": "https://www.yemenilaw.com/contracts/wsya-biqaad-wrtha-alabn-mqam-abyhm/",
+      "length": 9574
+    },
+    {
+      "title": "نموذج ضمان تجاري لموظف",
+      "url": "https://www.yemenilaw.com/contracts/dman-tjary-lqyam-shkhs-bwzyfa/",
+      "length": 10201
+    },
+    {
+      "title": "نموذج عقد حوالة دين",
+      "url": "https://www.yemenilaw.com/contracts/aqd-alhwala/",
+      "length": 9658
+    },
+    {
+      "title": "نموذج تنازل عن قضية أو شكوى",
+      "url": "https://www.yemenilaw.com/contracts/tnazl-an-qdya-aw-shkwa/",
+      "length": 10171
+    },
+    {
+      "title": "نموذج تكليف بالوفاء الاختياري",
+      "url": "https://www.yemenilaw.com/contracts/tklyf-balwfa-alakhtyary/",
+      "length": 10265
+    },
+    {
+      "title": "نموذج وكالة تجارية لإدارة الأعمال",
+      "url": "https://www.yemenilaw.com/contracts/wkala-tjarya-llqyam-balaamal-altjarya/",
+      "length": 11240
+    },
+    {
+      "title": "نموذج إقرار بدين تجاري",
+      "url": "https://www.yemenilaw.com/contracts/iqrar-bdyn-tjary/",
+      "length": 9689
+    },
+    {
+      "title": "نموذج استلام مبلغ مالي",
+      "url": "https://www.yemenilaw.com/contracts/astlam-mblgh-maly/",
+      "length": 9380
+    },
+    {
+      "title": "نموذج استلام باقي المستحقات",
+      "url": "https://www.yemenilaw.com/contracts/astlam-baqy-almsthqat/",
+      "length": 10406
+    },
+    {
+      "title": "نموذج إلغاء توكيل رسمي",
+      "url": "https://www.yemenilaw.com/contracts/ilgha-twkyl/",
+      "length": 9937
+    },
+    {
+      "title": "نموذج عقد شراكة تجارية",
+      "url": "https://www.yemenilaw.com/contracts/aqd-sharaka/",
+      "length": 13822
+    },
+    {
+      "title": "نموذج محضر جرد سنوي واعتماد حسابات وتوزيع أرباح الشركة",
+      "url": "https://www.yemenilaw.com/contracts/mhdr-jrd-snwy-waatmad-hsabat-wtwzya-arbah-alshrka/",
+      "length": 11286
+    },
+    {
+      "title": "نموذج عقد إيجار أرض على الشارع العام",
+      "url": "https://www.yemenilaw.com/contracts/aqd-iyjar-ard-ala-alshara-alaam/",
+      "length": 9578
+    },
+    {
+      "title": "نموذج إعلان بموجب الضمان",
+      "url": "https://www.yemenilaw.com/contracts/ialan-bmwjb-aldman/",
+      "length": 9897
+    },
+    {
+      "title": "نموذج ضمانة تجارية للمستأجر",
+      "url": "https://www.yemenilaw.com/contracts/dmana-tjarya-llmstajr/",
+      "length": 10092
+    },
+    {
+      "title": "نموذج ضمانة تجارية على دين",
+      "url": "https://www.yemenilaw.com/contracts/dmana-tjarya-ala-dyn/",
+      "length": 11639
+    },
+    {
+      "title": "نموذج فصل قسمة رضائية جامع",
+      "url": "https://www.yemenilaw.com/contracts/fsl-qsma-rdayya-jama/",
+      "length": 9980
+    },
+    {
+      "title": "نموذج تنازل عن أسهم شركة",
+      "url": "https://www.yemenilaw.com/contracts/tnazl-an-ashm/",
+      "length": 10216
+    },
+    {
+      "title": "نموذج تنازل عن ترخيص محل تجاري",
+      "url": "https://www.yemenilaw.com/contracts/tnazl-an-trkhys-mhl-tjary/",
+      "length": 10513
+    },
+    {
+      "title": "نموذج تنازل عن حصص في شركة",
+      "url": "https://www.yemenilaw.com/contracts/tnazl-an-hss-fy-shrka/",
+      "length": 10726
+    },
+    {
+      "title": "نموذج تنازل عن الاسم والسجل التجاري",
+      "url": "https://www.yemenilaw.com/contracts/tnazl-an-alasm-walsjl-altjary/",
+      "length": 10766
+    },
+    {
+      "title": "نموذج تنازل عن وكالة أجنبية",
+      "url": "https://www.yemenilaw.com/contracts/tnazl-an-wkala-ajnbya/",
+      "length": 12163
+    },
+    {
+      "title": "نموذج توكيل لإدارة مؤسسة",
+      "url": "https://www.yemenilaw.com/contracts/twkyl-lidara-mwssa/",
+      "length": 10403
+    },
+    {
+      "title": "نموذج توكيل عام في عمل تجاري مقابل راتب ونسبة",
+      "url": "https://www.yemenilaw.com/contracts/twkyl-aam-fy-aml-tjary-mqabl-ratb-wnsba/",
+      "length": 10503
+    },
+    {
+      "title": "نموذج تنازل بقطعة أرض لصالح بناء مدرسة",
+      "url": "https://www.yemenilaw.com/contracts/tnazl-bqtaa-ard-lsalh-bna-mdrsa/",
+      "length": 10461
+    },
+    {
+      "title": "نموذج دعوى قضائية",
+      "url": "https://www.yemenilaw.com/contracts/dawa-qdayya/",
+      "length": 9721
+    },
+    {
+      "title": "نموذج اتفاق على بيع ابتدائي لقطعة أرض",
+      "url": "https://www.yemenilaw.com/contracts/atfaq-ala-bya-abtdayy-lqtaa-ard/",
+      "length": 11245
+    },
+    {
+      "title": "نموذج تفويض وتحكيم بالقسمة",
+      "url": "https://www.yemenilaw.com/contracts/tfwyd-wthkym-balqsma/",
+      "length": 10850
+    },
+    {
+      "title": "نموذج إقرار ببناء عقار",
+      "url": "https://www.yemenilaw.com/contracts/iqrar-bbna/",
+      "length": 9081
+    },
+    {
+      "title": "نموذج شكوى جزائية",
+      "url": "https://www.yemenilaw.com/contracts/shkwa-jzayya/",
+      "length": 8274
+    },
+    {
+      "title": "نموذج استلام عهدة عمل",
+      "url": "https://www.yemenilaw.com/contracts/astlam-ahda-aml/",
+      "length": 8899
+    },
+    {
+      "title": "نموذج إقرار باستلام عهدة وإخلاء طرف عامل",
+      "url": "https://www.yemenilaw.com/contracts/iqrar-bastlam-ahda-wikhla-trf-aaml/",
+      "length": 9728
+    },
+    {
+      "title": "نموذج تنازل عن ترخيص محل",
+      "url": "https://www.yemenilaw.com/contracts/tnazl-an-trkhys-mhl/",
+      "length": 9923
+    },
+    {
+      "title": "نموذج تنازل عن علامة تجارية",
+      "url": "https://www.yemenilaw.com/contracts/tnazl-an-alama-tjarya/",
+      "length": 10037
+    },
+    {
+      "title": "نموذج اتفاق",
+      "url": "https://www.yemenilaw.com/contracts/atfaq/",
+      "length": 8870
+    },
+    {
+      "title": "نموذج صلح",
+      "url": "https://www.yemenilaw.com/contracts/sulh/",
+      "length": 9574
+    },
+    {
+      "title": "نموذج عقد مقاولة بناء",
+      "url": "https://www.yemenilaw.com/contracts/moqawala/",
+      "length": 9755
+    },
+    {
+      "title": "نموذج عقد مضاربة تجارية",
+      "url": "https://www.yemenilaw.com/contracts/almdarba/",
+      "length": 9704
+    },
+    {
+      "title": "نموذج عقد بيع سَلَم",
+      "url": "https://www.yemenilaw.com/contracts/aqd-bya-slm/",
+      "length": 9072
+    },
+    {
+      "title": "نموذج إقالة لعقد البيع / إرجاع مبيع",
+      "url": "https://www.yemenilaw.com/contracts/iqala-laqd-albya-irjaa-mbya/",
+      "length": 9724
+    },
+    {
+      "title": "نموذج عقد المقايضة والمناقلة",
+      "url": "https://www.yemenilaw.com/contracts/aqd-almqayda-almnaqla/",
+      "length": 9602
+    },
+    {
+      "title": "نموذج إطلاق أرض",
+      "url": "https://www.yemenilaw.com/contracts/itlaq-alard/",
+      "length": 8333
+    },
+    {
+      "title": "نموذج عقد قرض مالي",
+      "url": "https://www.yemenilaw.com/contracts/aqd-alqrd/",
+      "length": 8206
+    },
+    {
+      "title": "نموذج تنازل عن الحق في القصاص",
+      "url": "https://www.yemenilaw.com/contracts/tnazl-an-alhq-fy-alqsas/",
+      "length": 8651
+    },
+    {
+      "title": "نموذج وثيقة تنازل قانونية",
+      "url": "https://www.yemenilaw.com/contracts/wthyqa-tnazl/",
+      "length": 8321
+    },
+    {
+      "title": "تحرير الاحتجاجات بإثبات الامتناع عن قبول أو وفاء الأوراق التجارية",
+      "url": "https://www.yemenilaw.com/contracts/ihtijaj-alawraq-altijariya/",
+      "length": 6218
+    },
+    {
+      "title": "فتح حساب تعامل تجاري",
+      "url": "https://www.yemenilaw.com/contracts/fath-hisab-taamul-tijari/",
+      "length": 4384
+    },
+    {
+      "title": "نموذج عقد وديعة",
+      "url": "https://www.yemenilaw.com/contracts/aqd-alwdya/",
+      "length": 7997
+    },
+    {
+      "title": "وثيقة إشهاد الرجعة",
+      "url": "https://www.yemenilaw.com/contracts/ishhad-alrajaa/",
+      "length": 5973
+    },
+    {
+      "title": "وثيقة إشهاد الطلاق",
+      "url": "https://www.yemenilaw.com/contracts/ishhad-altalaq/",
+      "length": 2605
+    },
+    {
+      "title": "وثيقة إقرار عام",
+      "url": "https://www.yemenilaw.com/contracts/wthyqa-iqrar-aam/",
+      "length": 6155
+    },
+    {
+      "title": "وثيقة الإرعاء وما يقوم مقامه",
+      "url": "https://www.yemenilaw.com/contracts/wthyqa-aliraa/",
+      "length": 7153
+    },
+    {
+      "title": "وثيقة التزام وتعهد",
+      "url": "https://www.yemenilaw.com/contracts/wthyqa-altzam-wtaahd/",
+      "length": 6981
+    },
+    {
+      "title": "وثيقة النذر",
+      "url": "https://www.yemenilaw.com/contracts/wthyqa-alnathr/",
+      "length": 6276
+    },
+    {
+      "title": "وثيقة انقضاء الحق",
+      "url": "https://www.yemenilaw.com/contracts/wthyqa-inqidaa-alhaq/",
+      "length": 4552
+    },
+    {
+      "title": "وثيقة عقد التأمين",
+      "url": "https://www.yemenilaw.com/contracts/aqd-altamin/",
+      "length": 6179
+    },
+    {
+      "title": "وثيقة عقد العارية",
+      "url": "https://www.yemenilaw.com/contracts/aqd-alariya/",
+      "length": 6308
+    },
+    {
+      "title": "وثيقة عقد تأسيس جمعية أو مؤسسة أهلية",
+      "url": "https://www.yemenilaw.com/contracts/aqd-tasis-jamiyya-muassasa-ahliyya/",
+      "length": 6677
+    }
+  ],
+  "articles": [
+    {
+      "title": "الجرائم الإلكترونية والابتزاز الإلكتروني: كيف تحمي نفسك قانونياً؟",
+      "url": "https://www.yemenilaw.com/posts/electronic-crimes-blackmail-yemen/",
+      "length": 6873
+    },
+    {
+      "title": "دعوى محاسبة شريك: متى ترفع وما أهم الطلبات؟",
+      "url": "https://www.yemenilaw.com/posts/dawa-muhasabat-sharik-yemen/",
+      "length": 3988
+    },
+    {
+      "title": "دعوى نفقة زوجية وصغار: المستندات والطلبات",
+      "url": "https://www.yemenilaw.com/posts/dawa-nafaqa-zawjiya-wa-sighar-yemen/",
+      "length": 3696
+    },
+    {
+      "title": "عقد إيجار محل تجاري: أهم البنود التي يجب الانتباه لها",
+      "url": "https://www.yemenilaw.com/posts/aqd-ijar-mahal-tijari-yemen/",
+      "length": 4213
+    },
+    {
+      "title": "شرح الرسوم القضائية في القانون اليمني وفقًا لتعديلات 2025م",
+      "url": "https://www.yemenilaw.com/posts/judicial-fees-yemen-2025/",
+      "length": 38222
+    },
+    {
+      "title": "القيود الواردة على تداول الأسهم في شركات المساهمة",
+      "url": "https://www.yemenilaw.com/posts/share-transfer-restrictions-yemen/",
+      "length": 51064
+    },
+    {
+      "title": "دعوى المطالبة بقيمة الشيك: الطريق التجاري والمدني للمطالبة",
+      "url": "https://www.yemenilaw.com/posts/cheque-claim-yemen/",
+      "length": 2474
+    },
+    {
+      "title": "دعوى الحضانة وتسليم الصغير: المستندات والطلبات العملية",
+      "url": "https://www.yemenilaw.com/posts/child-custody-yemen/",
+      "length": 2473
+    },
+    {
+      "title": "دعوى فسخ عقد: شروطها وأثر الإخلال بالتزامات العقد",
+      "url": "https://www.yemenilaw.com/posts/contract-rescission-yemen/",
+      "length": 2470
+    },
+    {
+      "title": "دعوى مطالبة بمبلغ مالي: متى ترفعها وما البيانات المطلوبة؟",
+      "url": "https://www.yemenilaw.com/posts/debt-claim-yemen/",
+      "length": 4004
+    },
+    {
+      "title": "طلب حصر التركة: متى تحتاجه لحماية أموال الورثة؟",
+      "url": "https://www.yemenilaw.com/posts/estate-inventory-yemen/",
+      "length": 2421
+    },
+    {
+      "title": "دعوى إخلاء العين المؤجرة: الأسباب والمستندات والطلبات",
+      "url": "https://www.yemenilaw.com/posts/eviction-lease-yemen/",
+      "length": 2429
+    },
+    {
+      "title": "دعوى قسمة التركة: من حصر الورثة إلى فرز الأنصبة",
+      "url": "https://www.yemenilaw.com/posts/inheritance-division-yemen/",
+      "length": 2419
+    },
+    {
+      "title": "إنذار سداد دين: صياغته وفائدته قبل رفع الدعوى",
+      "url": "https://www.yemenilaw.com/posts/legal-notice-debt-yemen/",
+      "length": 3551
+    },
+    {
+      "title": "دعوى محاسبة الشراكة: كيف تطالب بكشف الحساب والأرباح؟",
+      "url": "https://www.yemenilaw.com/posts/partnership-accounting-yemen/",
+      "length": 2439
+    },
+    {
+      "title": "دعوى أرباح الشراكة: متى تطالب الشريك بنصيبك؟",
+      "url": "https://www.yemenilaw.com/posts/partnership-profits-yemen/",
+      "length": 2435
+    },
+    {
+      "title": "الشرط الجزائي في العقود اليمنية: متى يطالب به ومتى يضعف؟",
+      "url": "https://www.yemenilaw.com/posts/penalty-clause-yemen/",
+      "length": 3610
+    },
+    {
+      "title": "دعوى فسخ النكاح للكراهية: كيف يفهمها الزوج وما أوجه الرد؟",
+      "url": "https://www.yemenilaw.com/posts/personal-status-hatred-yemen/",
+      "length": 3721
+    },
+    {
+      "title": "دعوى منع التعرض وحماية الحيازة: متى تستخدم؟",
+      "url": "https://www.yemenilaw.com/posts/possession-protection-yemen/",
+      "length": 3666
+    },
+    {
+      "title": "مدة عقد الإيجار: خطورة عبارة مدى الحياة أو طول بقاء النشاط",
+      "url": "https://www.yemenilaw.com/posts/rental-contract-duration-yemen/",
+      "length": 4058
+    },
+    {
+      "title": "دعوى صحة ونفاذ عقد البيع: متى يحتاجها المشتري؟",
+      "url": "https://www.yemenilaw.com/posts/sale-contract-validity-yemen/",
+      "length": 2430
+    },
+    {
+      "title": "دعوى النفقة الزوجية والنشوز: متى تطلب ومتى يدفع بها؟",
+      "url": "https://www.yemenilaw.com/posts/spousal-alimony-yemen/",
+      "length": 2500
+    }
+  ]
+}
