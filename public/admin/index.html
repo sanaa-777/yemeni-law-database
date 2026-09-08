@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>لوحة إدارة الوكيل الذكي</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+<div class="adm">
+  <!-- SIDEBAR -->
+  <aside class="aside" id="aside">
+    <div class="aside-head">
+      <div class="logo"><i data-lucide="scale"></i></div>
+      <div><div class="ttl">لوحة التحكم</div><div class="sub">وكيل ذكي للقانون</div></div>
+    </div>
+    <nav class="aside-nav">
+      <div class="nav-sec">عام</div>
+      <div class="nav-item on" data-page="overview" onclick="Admin.nav(this)"><i data-lucide="layout-dashboard"></i>نظرة عامة</div>
+      <div class="nav-item" data-page="agents" onclick="Admin.nav(this)"><i data-lucide="bot"></i>الوكلاء</div>
+      <div class="nav-item" data-page="tools" onclick="Admin.nav(this)"><i data-lucide="wrench"></i>الأدوات</div>
+      <div class="nav-sec">المعرفة</div>
+      <div class="nav-item" data-page="knowledge" onclick="Admin.nav(this)"><i data-lucide="brain"></i>المعرفة</div>
+      <div class="nav-item" data-page="sources" onclick="Admin.nav(this)"><i data-lucide="database"></i>مصادر المعرفة</div>
+      <div class="nav-item" data-page="memory" onclick="Admin.nav(this)"><i data-lucide="hard-drive"></i>ذاكرة الوكيل</div>
+      <div class="nav-sec">الإعدادات</div>
+      <div class="nav-item" data-page="models" onclick="Admin.nav(this)"><i data-lucide="settings-2"></i>النماذج</div>
+      <div class="nav-item" data-page="instructions" onclick="Admin.nav(this)"><i data-lucide="file-code"></i>التعليمات</div>
+      <div class="nav-sec">المراقبة</div>
+      <div class="nav-item" data-page="monitoring" onclick="Admin.nav(this)"><i data-lucide="activity"></i>المراقبة</div>
+      <div class="nav-item" data-page="logs" onclick="Admin.nav(this)"><i data-lucide="scroll-text"></i>سجل العمليات</div>
+      <div class="nav-item" data-page="playground" onclick="Admin.nav(this)"><i data-lucide="flask-conical"></i>الاختبار</div>
+    </nav>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="content">
+    <div class="content-head">
+      <h1 id="pageTitle">نظرة عامة</h1>
+      <div style="display:flex;gap:8px">
+        <button class="btn btn-ghost btn-sm" onclick="location.href='/'"><i data-lucide="external-link"></i>الواجهة الرئيسية</button>
+        <button class="btn-icon" onclick="document.getElementById('aside').classList.toggle('open')"><i data-lucide="menu"></i></button>
+      </div>
+    </div>
+    <div class="content-body" id="contentBody">
+
+      <!-- ═══ OVERVIEW ═══ -->
+      <div class="page on" id="page-overview">
+        <div class="stats" id="overviewStats"></div>
+        <div class="cards" id="overviewCards"></div>
+        <h3 style="font-size:.82rem;margin-bottom:10px">آخر العمليات</h3>
+        <div class="tbl-wrap"><table class="tbl"><thead><tr><th>العملية</th><th>التفاصيل</th><th>الوقت</th></tr></thead><tbody id="overviewLog"></tbody></table></div>
+      </div>
+
+      <!-- ═══ AGENTS ═══ -->
+      <div class="page" id="page-agents">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px">
+          <div class="search-bar" style="margin-bottom:0;flex:1;max-width:400px"><input type="text" placeholder="بحث في الوكلاء..." id="agentSearch" oninput="Admin.renderAgents()"></div>
+          <button class="btn btn-gold" onclick="Admin.openAgentModal()"><i data-lucide="plus"></i>وكيل جديد</button>
+        </div>
+        <div class="cards" id="agentCards"></div>
+      </div>
+
+      <!-- ═══ TOOLS ═══ -->
+      <div class="page" id="page-tools">
+        <div class="filter-bar">
+          <select id="toolFilter" onchange="Admin.renderTools()"><option value="">جميع الحالات</option><option value="enabled">مفعلة</option><option value="disabled">معطلة</option></select>
+          <select id="toolTypeFilter" onchange="Admin.renderTools()"><option value="">جميع الأنواع</option><option value="search">بحث</option><option value="analysis">تحليل</option><option value="extraction">استخراج</option><option value="generation">توليد</option><option value="verification">تحقق</option><option value="evaluation">تقييم</option><option value="calculation">حساب</option><option value="utility">أداة مساعدة</option></select>
+        </div>
+        <div class="tbl-wrap"><table class="tbl"><thead><tr><th>الأداة</th><th>النوع</th><th>الحالة</th><th>الوكيل</th><th>مرات الاستخدام</th><th>آخر استخدام</th><th>إجراءات</th></tr></thead><tbody id="toolTable"></tbody></table></div>
+      </div>
+
+      <!-- ═══ KNOWLEDGE ═══ -->
+      <div class="page" id="page-knowledge">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;flex-wrap:wrap;gap:8px">
+          <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <div class="search-bar" style="margin-bottom:0"><input type="text" placeholder="بحث في المعرفة..." id="kbSearch" oninput="Admin.renderKnowledge()"></div>
+            <select id="kbTypeFilter" onchange="Admin.renderKnowledge()" style="padding:8px;background:var(--bg2);border:1px solid var(--b1);border-radius:var(--r1);color:var(--t2);font-size:.72rem"><option value="">جميع الأنواع</option><option value="instructions">تعليمات</option><option value="law">قوانين</option><option value="regulation">لوائح</option><option value="case-law">أحكام قضائية</option><option value="reference">مراجع</option><option value="document">مستندات</option><option value="qa">أسئلة وأجوبة</option><option value="guideline">إرشادات</option></select>
+          </div>
+          <button class="btn btn-gold" onclick="Admin.openKnowledgeModal()"><i data-lucide="plus"></i>إضافة معرفة</button>
+        </div>
+        <div id="knowledgeList"></div>
+      </div>
+
+      <!-- ═══ SOURCES ═══ -->
+      <div class="page" id="page-sources">
+        <div class="stats" id="sourceStats"></div>
+        <div class="tbl-wrap"><table class="tbl"><thead><tr><th>المصدر</th><th>النوع</th><th>الحالة</th><th>الفهرسة</th><th>المقاطع</th><th>الوكيل</th><th>إجراءات</th></tr></thead><tbody id="sourceTable"></tbody></table></div>
+      </div>
+
+      <!-- ═══ MEMORY ═══ -->
+      <div class="page" id="page-memory">
+        <div class="tabs" id="memoryTabs">
+          <div class="tab on" data-tab="conversations" onclick="Admin.memoryTab(this)">المحادثات</div>
+          <div class="tab" data-tab="preferences" onclick="Admin.memoryTab(this)">التفضيلات</div>
+          <div class="tab" data-tab="caseContext" onclick="Admin.memoryTab(this)">سياق القضايا</div>
+          <div class="tab" data-tab="temporary" onclick="Admin.memoryTab(this)">مؤقتة</div>
+          <div class="tab" data-tab="longTerm" onclick="Admin.memoryTab(this)">طويلة المدى</div>
+        </div>
+        <div id="memoryContent"></div>
+      </div>
+
+      <!-- ═══ MODELS ═══ -->
+      <div class="page" id="page-models">
+        <div id="modelConfig"></div>
+      </div>
+
+      <!-- ═══ INSTRUCTIONS ═══ -->
+      <div class="page" id="page-instructions">
+        <div id="instructionsEditor"></div>
+      </div>
+
+      <!-- ═══ MONITORING ═══ -->
+      <div class="page" id="page-monitoring">
+        <div class="stats" id="monitorStats"></div>
+        <div class="cards" id="monitorCards"></div>
+      </div>
+
+      <!-- ═══ LOGS ═══ -->
+      <div class="page" id="page-logs">
+        <div class="filter-bar">
+          <input type="text" placeholder="بحث في السجل..." id="logSearch" oninput="Admin.renderLogs()" style="padding:6px 10px;background:var(--bg2);border:1px solid var(--b1);border-radius:var(--r1);color:var(--t2);font-size:.72rem;flex:1;max-width:300px">
+        </div>
+        <div class="tbl-wrap"><table class="tbl"><thead><tr><th>العملية</th><th>التفاصيل</th><th>الوكيل</th><th>الوقت</th></tr></thead><tbody id="logTable"></tbody></table></div>
+      </div>
+
+      <!-- ═══ PLAYGROUND ═══ -->
+      <div class="page" id="page-playground">
+        <div class="card" style="max-width:700px">
+          <h3 style="font-size:.85rem;margin-bottom:14px">اختبار الوكيل</h3>
+          <div class="form-group"><label>الوكيل</label><select class="form-input" id="pgAgent"></select></div>
+          <div class="form-group"><label>السؤال</label><textarea class="form-input" id="pgQuery" rows="3" placeholder="اكتب سؤالاً تجريبياً..."></textarea></div>
+          <button class="btn btn-gold" onclick="Admin.runPlayground()"><i data-lucide="play"></i>تشغيل الاختبار</button>
+        </div>
+        <div id="pgResults" style="margin-top:16px"></div>
+      </div>
+
+    </div>
+  </main>
+</div>
+
+<!-- MODAL -->
+<div class="modal-bg" id="modal"><div class="modal"><div class="modal-head"><h3 id="modalTitle">عنوان</h3><button class="btn-icon" onclick="Admin.closeModal()"><i data-lucide="x"></i></button></div><div class="modal-body" id="modalBody"></div><div class="modal-foot" id="modalFoot"></div></div></div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"><i data-lucide="check-circle"></i><span id="toastMsg"></span></div>
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>

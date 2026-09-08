@@ -1,0 +1,18 @@
+[
+  {
+    "id": "kb-1788909660587",
+    "title": "اختبار معرفة",
+    "type": "law",
+    "content": "محتوى اختباري",
+    "source": "اختبار",
+    "tags": [
+      "test"
+    ],
+    "priority": "medium",
+    "confidence": 80,
+    "agentId": "lawyer-main",
+    "createdAt": "2026-09-08T23:21:00.587Z",
+    "updatedAt": "2026-09-08T23:21:00.587Z",
+    "useCount": 0
+  }
+]

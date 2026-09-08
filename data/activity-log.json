@@ -1,0 +1,30 @@
+[
+  {
+    "id": "mttamm5k",
+    "action": "playground_test",
+    "details": "اختبار: \"عقد إيجار\"",
+    "agentId": "lawyer-main",
+    "timestamp": "2026-09-08T23:21:08.265Z"
+  },
+  {
+    "id": "mttamgew",
+    "action": "tool_toggled",
+    "details": "تم تفعيل الأداة: البحث على الإنترنت",
+    "agentId": null,
+    "timestamp": "2026-09-08T23:21:00.824Z"
+  },
+  {
+    "id": "mttamgcn",
+    "action": "agent_updated",
+    "details": "تم تحديث الوكيل: محامي اونلاين",
+    "agentId": "lawyer-main",
+    "timestamp": "2026-09-08T23:21:00.743Z"
+  },
+  {
+    "id": "mttamg8x",
+    "action": "knowledge_added",
+    "details": "تمت إضافة معرفة: اختبار معرفة",
+    "agentId": "lawyer-main",
+    "timestamp": "2026-09-08T23:21:00.609Z"
+  }
+]

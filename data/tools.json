@@ -1,0 +1,206 @@
+[
+  {
+    "id": "kb-search",
+    "name": "البحث في قاعدة المعرفة",
+    "description": "البحث النصي الكامل في 426 وثيقة قانونية",
+    "type": "search",
+    "status": "enabled",
+    "agentId": "lawyer-main",
+    "lastUsed": null,
+    "useCount": 0,
+    "config": {
+      "limit": 8
+    }
+  },
+  {
+    "id": "law-search",
+    "name": "البحث في القوانين",
+    "description": "البحث في 37 قانون يمني",
+    "type": "search",
+    "status": "enabled",
+    "agentId": "lawyer-main",
+    "lastUsed": null,
+    "useCount": 0,
+    "config": {
+      "category": "laws"
+    }
+  },
+  {
+    "id": "case-search",
+    "name": "البحث في الأحكام والسوابق",
+    "description": "البحث في 282 دعوى وإجراء قضائي",
+    "type": "search",
+    "status": "enabled",
+    "agentId": "lawyer-main",
+    "lastUsed": null,
+    "useCount": 0,
+    "config": {
+      "category": "library"
+    }
+  },
+  {
+    "id": "doc-analyze",
+    "name": "تحليل المستندات",
+    "description": "تحليل النصوص القانونية واستخراج المعلومات الرئيسية",
+    "type": "analysis",
+    "status": "enabled",
+    "agentId": "lawyer-main",
+    "lastUsed": null,
+    "useCount": 0,
+    "config": {}
+  },
+  {
+    "id": "pdf-read",
+    "name": "قراءة PDF",
+    "description": "استخراج النصوص من ملفات PDF",
+    "type": "extraction",
+    "status": "disabled",
+    "agentId": null,
+    "lastUsed": null,
+    "useCount": 0,
+    "config": {}
+  },
+  {
+    "id": "text-extract",
+    "name": "استخراج النصوص",
+    "description": "استخراج النصوص من صور ومستندات ممسوحة",
+    "type": "extraction",
+    "status": "disabled",
+    "agentId": null,
+    "lastUsed": null,
+    "useCount": 0,
+    "config": {}
+  },
+  {
+    "id": "web-search",
+    "name": "البحث على الإنترنت",
+    "description": "البحث في المصادر القانونية على الإنترنت",
+    "type": "search",
+    "status": "enabled",
+    "agentId": null,
+    "lastUsed": null,
+    "useCount": 0,
+    "config": {}
+  },
+  {
+    "id": "text-compare",
+    "name": "مقارنة النصوص القانونية",
+    "description": "مقارنة نصين قانونيين وإظهار الفروقات",
+    "type": "analysis",
+    "status": "enabled",
+    "agentId": "lawyer-main",
+    "lastUsed": null,
+    "useCount": 0,
+    "config": {}
+  },
+  {
+    "id": "source-verify",
+    "name": "التحقق من المصادر",
+    "description": "التحقق من صحة الاستشهاد القانوني",
+    "type": "verification",
+    "status": "enabled",
+    "agentId": "lawyer-main",
+    "lastUsed": null,
+    "useCount": 0,
+    "config": {}
+  },
+  {
+    "id": "source-cite",
+    "name": "الاستشهاد بالمصادر",
+    "description": "إضافة مراجع قانونية منظمة للإجابة",
+    "type": "generation",
+    "status": "enabled",
+    "agentId": "lawyer-main",
+    "lastUsed": null,
+    "useCount": 0,
+    "config": {}
+  },
+  {
+    "id": "case-analyze",
+    "name": "تحليل القضية",
+    "description": "تحليل وقائع القضية وتقديم توصيات قانونية",
+    "type": "analysis",
+    "status": "enabled",
+    "agentId": "lawyer-main",
+    "lastUsed": null,
+    "useCount": 0,
+    "config": {}
+  },
+  {
+    "id": "timeline-build",
+    "name": "بناء التسلسل الزمني",
+    "description": "بناء جدول زمني لوقائع القضية",
+    "type": "generation",
+    "status": "disabled",
+    "agentId": null,
+    "lastUsed": null,
+    "useCount": 0,
+    "config": {}
+  },
+  {
+    "id": "deadline-calc",
+    "name": "حساب المدد القانونية",
+    "description": "حساب المواعيد النهائية والتقادم",
+    "type": "calculation",
+    "status": "enabled",
+    "agentId": "lawyer-main",
+    "lastUsed": null,
+    "useCount": 0,
+    "config": {}
+  },
+  {
+    "id": "summary-gen",
+    "name": "إنشاء ملخص قانوني",
+    "description": "تلخيص المستندات والقضايا القانونية",
+    "type": "generation",
+    "status": "enabled",
+    "agentId": "lawyer-main",
+    "lastUsed": null,
+    "useCount": 0,
+    "config": {}
+  },
+  {
+    "id": "quality-eval",
+    "name": "تقييم جودة الإجابة",
+    "description": "تقييم دقة واكتمال الإجابة القانونية",
+    "type": "evaluation",
+    "status": "enabled",
+    "agentId": "lawyer-main",
+    "lastUsed": null,
+    "useCount": 0,
+    "config": {}
+  },
+  {
+    "id": "answer-verify",
+    "name": "التحقق قبل العرض",
+    "description": "مراجعة الإجابة والتحقق من دقتها قبل عرضها",
+    "type": "verification",
+    "status": "enabled",
+    "agentId": "lawyer-main",
+    "lastUsed": null,
+    "useCount": 0,
+    "config": {}
+  },
+  {
+    "id": "contract-gen",
+    "name": "توليد العقود",
+    "description": "إنشاء عقود من قوالب جاهزة مع بيانات مخصصة",
+    "type": "generation",
+    "status": "enabled",
+    "agentId": "lawyer-main",
+    "lastUsed": null,
+    "useCount": 0,
+    "config": {}
+  },
+  {
+    "id": "logs",
+    "name": "تسجيل العمليات",
+    "description": "تسجيل جميع العمليات والأنشطة",
+    "type": "utility",
+    "status": "enabled",
+    "agentId": "lawyer-main",
+    "lastUsed": null,
+    "useCount": 0,
+    "config": {}
+  }
+]

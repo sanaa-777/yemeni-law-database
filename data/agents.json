@@ -1,0 +1,38 @@
+[
+  {
+    "id": "lawyer-main",
+    "name": "محامي اونلاين",
+    "description": "وكيل قانوني ذكي متخصص في القانون اليمني - يقدم استشارات قانونية وصياغة عقود وتحليل قضايا",
+    "type": "legal-advisor",
+    "model": "local-search",
+    "status": "active",
+    "lastActive": "2026-09-08T23:17:23.290Z",
+    "tasksExecuted": 1,
+    "successRate": 95,
+    "tools": [
+      "kb-search",
+      "law-search",
+      "doc-analyze",
+      "contract-gen",
+      "source-cite",
+      "case-analyze",
+      "answer-verify",
+      "logs"
+    ],
+    "knowledgeSize": 0,
+    "createdAt": "2026-09-08T00:00:00Z",
+    "updatedAt": "2026-09-08T23:21:00.719Z",
+    "config": {
+      "temperature": 0.3,
+      "maxTokens": 4096,
+      "systemInstructions": "أنت محامٍ يمني متخصص. أجب على الأسئلة القانونية بناءً على القوانين اليمنية المتوفرة في قاعدة المعرفة. استشهد دائماً بالمصادر والمواد القانونية. إذا لم تجد إجابة، أشر إلى ذلك بوضوح.",
+      "responseStyle": "professional",
+      "language": "ar",
+      "rtl": true,
+      "contextWindow": 8192,
+      "searchLimit": 8,
+      "minConfidence": 0.3,
+      "noSourceBehavior": "warn"
+    }
+  }
+]
