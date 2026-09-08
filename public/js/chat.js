@@ -5,14 +5,19 @@ const Chat = (() => {
   const inp = document.getElementById('inp');
   const sendBtn = document.getElementById('sendBtn');
 
+  /* ── Unique ID for each message ── */
+  let msgCounter = 0;
+
   function addMsg(role, text, anim = true) {
+    const mid = 'msg-' + (++msgCounter);
     const d = document.createElement('div');
     d.className = 'mg' + (anim ? ' fade-in' : '');
+    d.id = mid;
     const time = new Date().toLocaleTimeString('ar-SA', { hour: '2-digit', minute: '2-digit' });
     if (role === 'u') {
       d.innerHTML = `<div class="mr u"><div class="ma us"><i data-lucide="user"></i></div><div class="mc"><div class="mb">${esc(text)}</div><div class="mt">${time}</div></div></div>`;
     } else {
-      d.innerHTML = `<div class="mr"><div class="ma ag"><i data-lucide="scale"></i></div><div class="mc"><div class="mb">${fmt(text)}</div><div class="macts"><button class="mact" onclick="Chat.copy(this)"><i data-lucide="copy"></i>نسخ</button><button class="mact" onclick="App.toast('تم الحفظ')"><i data-lucide="bookmark"></i>حفظ</button></div><div class="mt">${time}</div></div></div>`;
+      d.innerHTML = buildAgentHTML(text, '', time, mid);
     }
     msgs.appendChild(d);
     scroll();
@@ -41,15 +46,20 @@ const Chat = (() => {
   }
 
   function finish(d, data) {
+    const mid = d.id || 'msg-' + (++msgCounter);
     const time = new Date().toLocaleTimeString('ar-SA', { hour: '2-digit', minute: '2-digit' });
+    const answer = data.answer || 'لا توجد نتائج';
+    const sources = data.sources || [];
+
     let sourcesHTML = '';
-    if (data.sources && data.sources.length) {
+    if (sources.length) {
       sourcesHTML = '<div class="src-list">';
-      data.sources.forEach(s => {
-        sourcesHTML += `<div class="src-item" onclick="App.viewDoc('${s.id}')"><i data-lucide="file-text"></i><span>${s.title}</span><span class="src-cat">${s.category}</span></div>`;
+      sources.forEach(s => {
+        sourcesHTML += `<div class="src-item" onclick="App.viewDoc('${s.id}')"><i data-lucide="file-text"></i><span>${esc(s.title)}</span><span class="src-cat">${esc(s.category)}</span></div>`;
       });
       sourcesHTML += '</div>';
     }
+
     d.querySelector('.mc').innerHTML =
       `<div class="think"><div class="think-h"><i data-lucide="check-circle"></i>تم إعداد الاستشارة</div></div>` +
       `<div class="steps">` +
@@ -57,34 +67,104 @@ const Chat = (() => {
         `<div class="step"><div class="si ok"><i data-lucide="check"></i></div><span>البحث في الوثائق</span></div>` +
         `<div class="step"><div class="si ok"><i data-lucide="check"></i></div><span>إعداد الرد</span></div>` +
       `</div>` +
-      `<div class="mb" style="margin-top:10px">${fmt(data.answer || 'لا توجد نتائج')}</div>` +
+      `<div class="mb" style="margin-top:10px">${fmt(answer)}</div>` +
       sourcesHTML +
-      `<div class="macts"><button class="mact" onclick="Chat.copy(this)"><i data-lucide="copy"></i>نسخ</button><button class="mact" onclick="App.toast('تم الحفظ')"><i data-lucide="bookmark"></i>حفظ</button></div>` +
+      buildActionsHTML(answer, sources, time, mid) +
       `<div class="mt">${time}</div>`;
     scroll();
     lucide.createIcons();
   }
 
-  function fmt(t) { return (t || '').replace(/\n/g, '<br>').replace(/(المادة\s*\([^)]+\))/g, '<strong>$1</strong>'); }
+  /* ── Build action buttons HTML ── */
+  function buildActionsHTML(answer, sources, time, mid) {
+    const dataAttr = `data-answer="${encodeURIComponent(answer)}" data-sources="${encodeURIComponent(JSON.stringify(sources))}" data-time="${encodeURIComponent(time)}" data-mid="${mid}"`;
+    return `
+      <div class="msg-actions">
+        <button class="msg-action-btn" onclick="Chat.copyAnswer(this)" ${dataAttr}>
+          <i data-lucide="copy"></i>
+          <span>نسخ</span>
+        </button>
+        <button class="msg-action-btn" onclick="Chat.shareAnswer(this)" ${dataAttr}>
+          <i data-lucide="share-2"></i>
+          <span>مشاركة</span>
+        </button>
+        <button class="msg-action-btn msg-action-pdf" onclick="Chat.downloadPDF(this)" ${dataAttr}>
+          <i data-lucide="download"></i>
+          <span>تحميل PDF</span>
+        </button>
+      </div>`;
+  }
+
+  /* ── Build agent message HTML ── */
+  function buildAgentHTML(answer, sources, time, mid) {
+    return `<div class="mr"><div class="ma ag"><i data-lucide="scale"></i></div><div class="mc"><div class="mb">${fmt(answer)}</div>${buildActionsHTML(answer, sources, time, mid)}<div class="mt">${time}</div></div></div>`;
+  }
+
+  /* ── Format text ── */
+  function fmt(t) {
+    return (t || '')
+      .replace(/\n/g, '<br>')
+      .replace(/(المادة\s*\([^)]+\))/g, '<strong>$1</strong>')
+      .replace(/(─────────────────)/g, '<hr style="border:none;border-top:1px solid var(--b1);margin:8px 0">');
+  }
+
   function esc(t) { const d = document.createElement('div'); d.textContent = t; return d.innerHTML; }
   function scroll() { msgs.scrollTop = msgs.scrollHeight; }
 
-  function copy(btn) {
-    const mb = btn.closest('.mc').querySelector('.mb');
-    if (mb) { navigator.clipboard.writeText(mb.textContent); App.toast('تم نسخ النص'); }
+  /* ── Copy answer ── */
+  function copyAnswer(btn) {
+    const answer = decodeURIComponent(btn.dataset.answer || '');
+    navigator.clipboard.writeText(answer).then(() => {
+      App.toast('تم نسخ النص');
+      btn.classList.add('msg-action-done');
+      setTimeout(() => btn.classList.remove('msg-action-done'), 1500);
+    });
   }
 
-  function show() {
-    chatEl.classList.add('on');
+  /* ── Share answer ── */
+  async function shareAnswer(btn) {
+    const answer = decodeURIComponent(btn.dataset.answer || '');
+    const shareData = {
+      title: 'استشارة قانونية - محامي اونلاين',
+      text: answer
+    };
+    try {
+      if (navigator.share) {
+        await navigator.share(shareData);
+      } else {
+        await navigator.clipboard.writeText(answer);
+        App.toast('تم نسخ النص للمشاركة');
+      }
+    } catch (e) {
+      if (e.name !== 'AbortError') {
+        await navigator.clipboard.writeText(answer);
+        App.toast('تم نسخ النص');
+      }
+    }
   }
 
-  function hide() {
-    chatEl.classList.remove('on');
+  /* ── Download PDF ── */
+  async function downloadPDF(btn) {
+    btn.disabled = true;
+    btn.querySelector('span').textContent = 'جاري التجهيز...';
+    try {
+      const answer = decodeURIComponent(btn.dataset.answer || '');
+      const sources = JSON.parse(decodeURIComponent(btn.dataset.sources || '[]'));
+      const time = decodeURIComponent(btn.dataset.time || '');
+      await PDFExport.generate(answer, sources, time);
+      App.toast('تم تحميل ملف PDF');
+    } catch (e) {
+      console.error('PDF error:', e);
+      App.toast('خطأ في إنشاء PDF');
+    } finally {
+      btn.disabled = false;
+      btn.querySelector('span').textContent = 'تحميل PDF';
+    }
   }
 
-  function clear() {
-    msgs.innerHTML = '';
-  }
+  function show() { chatEl.classList.add('on'); }
+  function hide() { chatEl.classList.remove('on'); }
+  function clear() { msgs.innerHTML = ''; msgCounter = 0; }
 
-  return { addMsg, addThinking, showSteps, finish, show, hide, clear, copy };
+  return { addMsg, addThinking, showSteps, finish, show, hide, clear, copyAnswer, shareAnswer, downloadPDF };
 })();
