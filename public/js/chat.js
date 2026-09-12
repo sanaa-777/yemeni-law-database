@@ -102,7 +102,11 @@ const Chat = (() => {
 
   /* ── Format text ── */
   function fmt(t) {
-    return (t || '')
+    return esc(t || '')
+      .replace(/^## (.+)$/gm, '<h4>$1</h4>')
+      .replace(/^### (.+)$/gm, '<h5>$1</h5>')
+      .replace(/^[-•] (.+)$/gm, '<div class="answer-bullet">• $1</div>')
+      .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
       .replace(/\n/g, '<br>')
       .replace(/(المادة\s*\([^)]+\))/g, '<strong>$1</strong>')
       .replace(/(─────────────────)/g, '<hr style="border:none;border-top:1px solid var(--b1);margin:8px 0">');

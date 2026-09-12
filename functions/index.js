@@ -2,6 +2,7 @@ const path = require('path');
 const fs = require('fs');
 const express = require('express');
 const cors = require('cors');
+const { retrieve, fallbackAnalysis, buildModelPayload, parseModel } = require('./app/agent-engine');
 
 const app = express();
 app.use(cors({ origin: true }));
@@ -56,16 +57,17 @@ app.post('/api/search', (req, res) => res.json({ results: search(req.body.query,
 app.get('/api/doc', (req, res) => { const d = db.all.find(x => x.id === req.query.id); return d ? res.json({ id: d.id, title: d.title, category: d.category, subcat: d.subcat || null, type: d.type || null, content: d.content }) : res.status(404).json({ error: 'not found' }); });
 app.post('/api/chat', async (req, res) => {
   if (!req.body.message) return res.status(400).json({ error: 'message required' });
-  const fallback = answer(req.body.message, req.body);
+  const hits = retrieve(req.body.message, db, search, Number(req.body.limit || 10));
+  const fallback = fallbackAnalysis(req.body.message, hits);
   const base = process.env.MODEL_API_BASE;
   const key = process.env.MODEL_API_KEY;
-  if (!base || !key) return res.json({ ...fallback, model: 'grounded-search' });
+  if (!base || !key) return res.json({ ...fallback, model: 'grounded-search', mode: 'مراجعة مصادر بدون نموذج خارجي' });
   try {
-    const context = fallback.sources.map(s => db.all.find(d => d.id === s.id)).map(d => `${d.title}\n${d.content.slice(0, 5000)}`).join('\n\n---\n\n');
-    const r = await fetch(`${base.replace(/\/$/, '')}/chat/completions`, { method: 'POST', headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${key}` }, body: JSON.stringify({ model: process.env.MODEL_NAME || 'gpt-4o-mini', temperature: 0.2, messages: [{ role: 'system', content: 'أنت وكيل قانوني يمني. أجب بالعربية اعتماداً على السياق المرفق فقط، اذكر المصادر، ولا تقدم جواباً قطعياً أو بديلاً عن المحامي.' }, { role: 'user', content: `السؤال: ${req.body.message}\n\nالسياق:\n${context}` }] }) });
+    const prompt = buildModelPayload(req.body.message, hits);
+    const r = await fetch(`${base.replace(/\/$/, '')}/chat/completions`, { method: 'POST', headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${key}` }, body: JSON.stringify({ model: process.env.MODEL_NAME || 'gpt-4o-mini', temperature: 0.15, max_tokens: 5000, response_format: { type: 'json_object' }, messages: [{ role: 'system', content: prompt.system }, { role: 'user', content: prompt.user }] }) });
     if (!r.ok) throw new Error(`model ${r.status}`);
     const j = await r.json();
-    return res.json({ ...fallback, answer: j.choices?.[0]?.message?.content || fallback.answer, model: process.env.MODEL_NAME || 'configured-model' });
+    return res.json({ ...parseModel(j.choices?.[0]?.message?.content, fallback), model: process.env.MODEL_NAME || 'configured-model', sources: fallback.sources });
   } catch (e) { return res.json({ ...fallback, model: 'grounded-search', modelWarning: 'تعذر الاتصال بالنموذج، تم استخدام البحث الموثق.' }); }
 });
 const { onRequest } = require('firebase-functions/v2/https');

@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const fs = require('fs');
 const path = require('path');
+const { retrieve, fallbackAnalysis } = require('./agent-engine');
 const app = express();
 const PORT = Number(process.env.PORT || 3000);
 app.use(cors());
@@ -30,6 +31,11 @@ function search(query, { limit = 8, category, subcat } = {}) { const words = Str
 app.get('/api/health', (req, res) => res.json({ ok: true, service: 'yemeni-law-api', documents: db.all.length }));
 app.get('/api/stats', (req, res) => res.json({ laws: db.laws.length, library: db.library.length, contracts: db.contracts.length, articles: db.articles.length, total: db.all.length, totalChars: db.all.reduce((n, d) => n + d.content.length, 0) }));
 app.post('/api/search', (req, res) => { const results = search(req.body.query, req.body); res.json({ results, total: results.length }); });
+app.post('/api/chat', (req, res) => {
+  if (!req.body.message) return res.status(400).json({ error: 'message required' });
+  const hits = retrieve(req.body.message, db, search, Number(req.body.limit || 10));
+  res.json({ ...fallbackAnalysis(req.body.message, hits), model: 'grounded-search', mode: 'مراجعة مصادر بدون نموذج خارجي' });
+});
 app.get('/api/doc', (req, res) => { const d = db.all.find(x => x.id === req.query.id); d ? res.json({ id: d.id, title: d.title, category: d.category, content: d.content }) : res.status(404).json({ error: 'not found' }); });
 app.use('/admin/api', require('./admin-routes'));
 app.get('/admin', (req, res) => res.sendFile(path.join(__dirname, 'public', 'admin', 'index.html')));

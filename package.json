@@ -8,7 +8,7 @@
     "start": "node server.js",
     "dev": "node --watch server.js",
     "test": "node --test test/*.test.js",
-    "prepare:functions": "rm -rf functions/app && mkdir -p functions/app && cp -R yemeni-law-database functions/app/yemeni-law-database && cp -R data functions/app/data",
+    "prepare:functions": "rm -rf functions/app && mkdir -p functions/app && cp agent-engine.js functions/app/agent-engine.js && cp -R yemeni-law-database functions/app/yemeni-law-database && cp -R data functions/app/data",
     "firebase:install": "npm --prefix functions install",
     "firebase:deploy": "npm run prepare:functions && firebase deploy --only functions,hosting"
   },
