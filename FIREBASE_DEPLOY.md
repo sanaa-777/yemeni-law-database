@@ -1,0 +1,66 @@
+# نشر قاعدة البيانات القانونية اليمنية على Firebase
+
+تم تحويل التطبيق إلى **Firebase Hosting + Firebase Functions**. الواجهة الثابتة موجودة في `public/`، وتعمل واجهة API عبر الدالة `api`، بينما تُحزم الوثائق النصية داخل Functions وتُفهرس عند الإقلاع. هذا مناسب لحجم البيانات الحالي ويمنع كشف محتوى القاعدة في متصفح المستخدم إلا عبر API.
+
+## إعداد المشروع
+
+1. ثبّت Firebase CLI وسجّل الدخول، ثم أنشئ أو اختر مشروع Firebase:
+
+```bash
+npm install -g firebase-tools
+firebase login
+firebase use --add
+```
+
+2. ثبّت الاعتماديات وجهّز نسخة بيانات Functions:
+
+```bash
+npm install
+npm run prepare:functions
+npm run firebase:install
+```
+
+3. خزّن مفتاح النموذج في Firebase Secret Manager. **لا تضعه في `.env` أو GitHub**:
+
+```bash
+firebase functions:secrets:set MODEL_API_KEY
+```
+
+عند السؤال، الصق المفتاح الذي زوّده صاحب المشروع. ثم اضبط مزود النموذج المتوافق مع OpenAI:
+
+```bash
+firebase functions:config:set model.api_base="https://api.openai.com/v1" model.name="gpt-4o-mini"
+```
+
+أو استخدم متغيرات البيئة في بيئة CI. لا تُرسل المفاتيح إلى الواجهة الأمامية.
+
+4. انشر:
+
+```bash
+npm run firebase:deploy
+```
+
+## نقاط التحقق
+
+```bash
+curl https://PROJECT_ID.web.app/api/health
+curl https://PROJECT_ID.web.app/api/stats
+curl -X POST https://PROJECT_ID.web.app/api/search \
+  -H 'content-type: application/json' \
+  -d '{"query":"قانون العمل","limit":5}'
+```
+
+اختبار محلي:
+
+```bash
+npm test
+npm start
+```
+
+## ملاحظات قاعدة البيانات والوكيل
+
+الفهرس الحالي مُحسّن للبحث العربي بالعنوان والمحتوى والتصنيف، ويُرجع مصادر واضحة مع كل إجابة. الوكيل يستخدم **بحثًا موثقًا أولًا (grounded retrieval)** ثم يمرر مقتطفات المصادر إلى النموذج عند توفر المفتاح؛ وعند فشل النموذج يعود إلى إجابة المصادر بدل اختلاق معلومات. تم تضمين تنبيه قانوني في كل إجابة.
+
+ملفات `data/*.json` هي حالة لوحة الإدارة الحالية. في نشر Firebase Functions تكون البيئة قابلة للتوسع، لذلك يُنصح لاحقًا بنقل هذه الحالة إلى Firestore إذا احتاجت لوحة الإدارة إلى كتابة مشتركة بين عدة نسخ. ملفات القوانين نفسها ثابتة ومضمنة في حزمة النشر، وهي مناسبة للقراءة السريعة ولا تتطلب تكلفة Firestore لكل استعلام.
+
+> لا يقدم الوكيل استشارة قانونية ملزمة، ويجب مراجعة محامٍ مختص قبل اتخاذ إجراء قانوني.

@@ -1,16 +1,17 @@
 {
-  "name": "lawyer-agent",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "yemeni-law-database",
+  "version": "2.0.0",
+  "private": true,
+  "description": "قاعدة البيانات القانونية اليمنية مع وكيل قانوني موثق وقابل للنشر على Firebase",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test/*.test.js",
+    "prepare:functions": "rm -rf functions/app && mkdir -p functions/app && cp -R yemeni-law-database functions/app/yemeni-law-database && cp -R data functions/app/data",
+    "firebase:install": "npm --prefix functions install",
+    "firebase:deploy": "npm run prepare:functions && firebase deploy --only functions,hosting"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "cors": "^2.8.6",
-    "express": "^5.2.1"
-  }
+  "dependencies": { "cors": "^2.8.5", "express": "^5.2.1" },
+  "engines": { "node": ">=20" }
 }
