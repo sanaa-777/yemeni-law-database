@@ -71,4 +71,6 @@ app.post('/api/chat', async (req, res) => {
   } catch (e) { return res.json({ ...fallback, model: 'grounded-search', modelWarning: 'تعذر الاتصال بالنموذج، تم استخدام البحث الموثق.' }); }
 });
 const { onRequest } = require('firebase-functions/v2/https');
-module.exports = { api: onRequest({ region: 'us-central1', cors: true, secrets: ['MODEL_API_KEY'] }, app), db, search };
+// The function deliberately remains deployable without a secret: it always has a grounded-search fallback.
+// Add MODEL_API_KEY through Firebase Secret Manager later to enable the optional model layer.
+module.exports = { api: onRequest({ region: 'us-central1', cors: true }, app), db, search };
