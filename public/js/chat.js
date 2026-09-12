@@ -36,11 +36,11 @@ const Chat = (() => {
 
   function showSteps(d) {
     d.querySelector('.mc').innerHTML =
-      `<div class="think"><div class="think-h"><i data-lucide="check-circle"></i>تم تحليل السؤال</div><div style="font-size:.68rem;color:var(--t3)">جاري البحث في قاعدة البيانات القانونية</div></div>` +
+      `<div class="think"><div class="think-h"><i data-lucide="check-circle"></i>جاري إعداد الرأي القانوني</div><div style="font-size:.68rem;color:var(--t3)">مراجعة الوقائع والقواعد ذات الصلة</div></div>` +
       `<div class="steps">` +
-        `<div class="step"><div class="si ok"><i data-lucide="check"></i></div><span>تحليل الاستشارة</span></div>` +
-        `<div class="step"><div class="si go"><i data-lucide="loader"></i></div><span>البحث في الوثائق</span></div>` +
-        `<div class="step"><div class="si wt"><i data-lucide="circle"></i></div><span>إعداد الرد</span></div>` +
+        `<div class="step"><div class="si ok"><i data-lucide="check"></i></div><span>فهم الوقائع</span></div>` +
+        `<div class="step"><div class="si go"><i data-lucide="loader"></i></div><span>تحديد القواعد والدفوع</span></div>` +
+        `<div class="step"><div class="si wt"><i data-lucide="circle"></i></div><span>صياغة الرأي</span></div>` +
       `</div>`;
     lucide.createIcons();
   }
@@ -61,11 +61,11 @@ const Chat = (() => {
     }
 
     d.querySelector('.mc').innerHTML =
-      `<div class="think"><div class="think-h"><i data-lucide="check-circle"></i>تم إعداد الاستشارة</div></div>` +
+      `<div class="think"><div class="think-h"><i data-lucide="check-circle"></i>الرأي القانوني الأولي</div></div>` +
       `<div class="steps">` +
-        `<div class="step"><div class="si ok"><i data-lucide="check"></i></div><span>تحليل الاستشارة</span></div>` +
-        `<div class="step"><div class="si ok"><i data-lucide="check"></i></div><span>البحث في الوثائق</span></div>` +
-        `<div class="step"><div class="si ok"><i data-lucide="check"></i></div><span>إعداد الرد</span></div>` +
+        `<div class="step"><div class="si ok"><i data-lucide="check"></i></div><span>فهم الوقائع</span></div>` +
+        `<div class="step"><div class="si ok"><i data-lucide="check"></i></div><span>تحديد الدفوع</span></div>` +
+        `<div class="step"><div class="si ok"><i data-lucide="check"></i></div><span>صياغة الرأي</span></div>` +
       `</div>` +
       `<div class="mb" style="margin-top:10px">${fmt(answer)}</div>` +
       sourcesHTML +
