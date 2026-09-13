@@ -62,7 +62,6 @@ const Chat = (() => {
       `</div>` +
       `<div class="mb" style="margin-top:10px">${fmt(answer)}</div>` +
       sourcesHTML +
-      buildActionsHTML(answer, sources, time, mid) +
       `<div class="mt">${time}</div>`;
     scroll();
     lucide.createIcons();
