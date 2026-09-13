@@ -3,6 +3,7 @@ const fs = require('fs');
 const express = require('express');
 const cors = require('cors');
 const { retrieve, fallbackAnalysis, buildModelPayload, parseModel } = require('./app/agent-engine');
+const { gateAndRank } = require('./app/legal-retrieval');
 
 const app = express();
 app.use(cors({ origin: true }));
@@ -32,7 +33,7 @@ function buildDatabase() {
 }
 const db = buildDatabase();
 const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-function search(query, { limit = 8, category, subcat } = {}) {
+function rawSearch(query, { limit = 8, category, subcat } = {}) {
   const words = String(query || '').replace(/[؟?!.,،؛:]/g, ' ').trim().split(/\s+/).filter(w => w.length > 1);
   if (!words.length) return [];
   let pool = db.all.filter(d => !category || d.category === category).filter(d => !subcat || d.subcat === subcat);
@@ -45,6 +46,7 @@ function search(query, { limit = 8, category, subcat } = {}) {
     return { id: doc.id, title: doc.title, category: doc.category, subcat: doc.subcat || null, type: doc.type || null, score, filename: doc.filename };
   }).filter(x => x.score > 0).sort((a, b) => b.score - a.score).slice(0, limit);
 }
+function search(query, opts = {}) { return gateAndRank(query, db.all, q => rawSearch(q, opts), opts.limit || 8).results; }
 function answer(message, opts) {
   const hits = search(message, { ...opts, limit: opts.limit || 5 });
   const sections = hits.map(h => { const d = db.all.find(x => x.id === h.id); return { ...h, excerpt: d.content.slice(0, 650) }; });

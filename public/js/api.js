@@ -3,6 +3,21 @@ const API = window.location.origin + '/api';
 let staticIndexPromise;
 const categoryNames = { laws: 'القوانين واللوائح', library: 'الدعاوى والإجراءات', contracts: 'نماذج العقود', articles: 'المقالات القانونية' };
 const normalize = value => String(value || '').normalize('NFKC').replace(/[إأآٱ]/g, 'ا').replace(/ى/g, 'ي').replace(/[ًٌٍَُِّْـ]/g, '').toLowerCase();
+const topicRules = [
+  { id: 'family', terms: ['نفقة','زوج','زوجة','طلاق','حضان','زواج','مهر','عدة','نشوز','اولاد','أولاد','نسب','ولاية','ميراث'], anchors: ['الأحوال الشخصية','نفقة','زوج','زوجة','طلاق','حضان','أولاد'] },
+  { id: 'labor', terms: ['عامل','موظف','فصل','أجر','عمل','عمال','إجازة','تعويض'], anchors: ['العمل','عمال','فصل تعسفي'] },
+  { id: 'commercial', terms: ['تجارة','شركة','شريك','تاجر','شيك','بنك','بيع','استثمار'], anchors: ['التجاري','شركة','تجارية','شيك'] },
+  { id: 'criminal', terms: ['جريمة','سرقة','اعتداء','ابتزاز','عقوبة','متهم','جزائي','جنائي'], anchors: ['الجرائم','العقوبات','الجزائية','جنائية'] }
+];
+function classifyTopic(query) { const q = normalize(query); return topicRules.map(t => ({ ...t, score: t.terms.reduce((n, x) => n + (q.includes(normalize(x)) ? 1 : 0), 0) })).sort((a,b) => b.score - a.score)[0]; }
+function passesLegalGate(doc, topic) {
+  if (!topic || topic.score === 0) return true;
+  const title = normalize(doc.title), body = normalize(doc.content);
+  if (topic.id === 'family' && ['المورد','تجاري','شركة','بنك','مقاول','توريد'].some(x => title.includes(normalize(x)))) return false;
+  const titleHit = topic.anchors.some(x => title.includes(normalize(x)));
+  const bodyHits = topic.terms.filter(x => body.includes(normalize(x))).length;
+  return titleHit || bodyHits >= 2;
+}
 async function staticIndex() {
   if (!staticIndexPromise) staticIndexPromise = fetch('/data/law-index.json').then(r => { if (!r.ok) throw new Error('static index unavailable'); return r.json(); });
   return staticIndexPromise;
@@ -10,10 +25,13 @@ async function staticIndex() {
 function staticSearch(query, opts = {}) {
   const words = normalize(query).replace(/[؟?!.,،؛:]/g, ' ').split(/\s+/).filter(w => w.length > 1);
   const index = opts.index || { documents: [] };
-  return index.documents.filter(d => (!opts.category || d.category === opts.category)).map(d => {
+  const topic = classifyTopic(query);
+  return index.documents.filter(d => (!opts.category || d.category === opts.category) && passesLegalGate(d, topic)).map(d => {
     const title = normalize(d.title), body = normalize(d.content); let score = 0;
     words.forEach(w => { if (title.includes(w)) score += 30; score += Math.min((body.split(w).length - 1) * 3, 25); });
-    return { id: d.id, title: d.title, category: d.category, categoryName: categoryNames[d.category], score, filename: d.filename };
+    const title = normalize(d.title); const anchorBoost = topic && topic.score ? (topic.anchors.some(x => title.includes(normalize(x))) ? 120 : 0) : 0;
+    const typeBoost = d.category === 'laws' ? 25 : d.category === 'library' ? 20 : 10;
+    return { id: d.id, title: d.title, category: d.category, categoryName: categoryNames[d.category], score: score + anchorBoost + typeBoost, filename: d.filename };
   }).filter(x => x.score > 0).sort((a, b) => b.score - a.score).slice(0, opts.limit || 10);
 }
 async function staticChat(message) {

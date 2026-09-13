@@ -3,6 +3,7 @@ const cors = require('cors');
 const fs = require('fs');
 const path = require('path');
 const { retrieve, fallbackAnalysis } = require('./agent-engine');
+const { gateAndRank } = require('./legal-retrieval');
 const app = express();
 const PORT = Number(process.env.PORT || 3000);
 app.use(cors());
@@ -27,7 +28,8 @@ function initDB() {
 }
 initDB();
 const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-function search(query, { limit = 8, category, subcat } = {}) { const words = String(query || '').replace(/[؟?!.,،؛:]/g, ' ').trim().split(/\s+/).filter(w => w.length > 1); if (!words.length) return []; return db.all.filter(d => (!category || d.category === category) && (!subcat || d.subcat === subcat)).map(doc => { const t = doc.title.toLowerCase(), b = doc.content.toLowerCase(); let score = 0; words.forEach(w => { const x = w.toLowerCase(); score += t.includes(x) ? 30 : 0; score += Math.min((b.match(new RegExp(esc(x), 'g')) || []).length * 3, 25); }); score += doc.category === 'laws' ? 5 : doc.category === 'library' ? 8 : 0; return { id: doc.id, title: doc.title, category: doc.category, subcat: doc.subcat || null, type: doc.type || null, score, filename: doc.filename }; }).filter(x => x.score > 0).sort((a, b) => b.score - a.score).slice(0, limit); }
+function rawSearch(query, { limit = 8, category, subcat } = {}) { const words = String(query || '').replace(/[؟?!.,،؛:]/g, ' ').trim().split(/\s+/).filter(w => w.length > 1); if (!words.length) return []; return db.all.filter(d => (!category || d.category === category) && (!subcat || d.subcat === subcat)).map(doc => { const t = doc.title.toLowerCase(), b = doc.content.toLowerCase(); let score = 0; words.forEach(w => { const x = w.toLowerCase(); score += t.includes(x) ? 30 : 0; score += Math.min((b.match(new RegExp(esc(x), 'g')) || []).length * 3, 25); }); score += doc.category === 'laws' ? 5 : doc.category === 'library' ? 8 : 0; return { id: doc.id, title: doc.title, category: doc.category, subcat: doc.subcat || null, type: doc.type || null, score, filename: doc.filename }; }).filter(x => x.score > 0).sort((a, b) => b.score - a.score).slice(0, limit); }
+function search(query, opts = {}) { return gateAndRank(query, db.all, q => rawSearch(q, opts), opts.limit || 8).results; }
 app.get('/api/health', (req, res) => res.json({ ok: true, service: 'yemeni-law-api', documents: db.all.length }));
 app.get('/api/stats', (req, res) => res.json({ laws: db.laws.length, library: db.library.length, contracts: db.contracts.length, articles: db.articles.length, total: db.all.length, totalChars: db.all.reduce((n, d) => n + d.content.length, 0) }));
 app.post('/api/search', (req, res) => { const results = search(req.body.query, req.body); res.json({ results, total: results.length }); });
