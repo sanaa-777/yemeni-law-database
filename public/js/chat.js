@@ -94,14 +94,21 @@ const Chat = (() => {
 
   /* ── Format text ── */
   function fmt(t) {
-    return esc(t || '')
+    let out = esc(t || '')
       .replace(/^## (.+)$/gm, '<h4>$1</h4>')
       .replace(/^### (.+)$/gm, '<h5>$1</h5>')
       .replace(/^[-•] (.+)$/gm, '<div class="answer-bullet">• $1</div>')
       .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-      .replace(/\n/g, '<br>')
       .replace(/(المادة\s*\([^)]+\))/g, '<strong>$1</strong>')
       .replace(/(─────────────────)/g, '<hr style="border:none;border-top:1px solid var(--b1);margin:8px 0">');
+    out = out.replace(/((?:^|\n)\|[^\n]+\|\n\|[- :|]+\|\n(?:\|[^\n]+\|\n?)+)/gm, block => {
+      const rows = block.trim().split('\n').filter(Boolean).map(x => x.split('|').slice(1, -1).map(c => c.trim()));
+      if (rows.length < 2) return block;
+      const head = rows[0].map(c => `<th>${c}</th>`).join('');
+      const body = rows.slice(2).map(r => `<tr>${r.map(c => `<td>${c}</td>`).join('')}</tr>`).join('');
+      return `<table class="legal-table"><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table>`;
+    });
+    return out.replace(/\n/g, '<br>');
   }
 
   function esc(t) { const d = document.createElement('div'); d.textContent = t; return d.innerHTML; }
