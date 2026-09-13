@@ -2,7 +2,7 @@
 const API = window.location.origin + '/api';
 let staticIndexPromise;
 const categoryNames = { laws: 'القوانين واللوائح', library: 'الدعاوى والإجراءات', contracts: 'نماذج العقود', articles: 'المقالات القانونية' };
-const normalize = value => String(value || '').normalize('NFKC').replace(/[إأآٱ]/g, 'ا').replace(/ى/g, 'ي').replace(/[ًٌٍَُِّْـ]/g, '').toLowerCase();
+const normalize = value => String(value || '').normalize('NFKC').replace(/[_-]+/g, ' ').replace(/[إأآٱ]/g, 'ا').replace(/ى/g, 'ي').replace(/[ًٌٍَُِّْـ]/g, '').toLowerCase();
 const topicRules = [
   { id: 'family', terms: ['نفقة','زوج','زوجة','طلاق','حضان','زواج','مهر','عدة','نشوز','اولاد','أولاد','نسب','ولاية','ميراث'], anchors: ['الأحوال الشخصية','نفقة','زوج','زوجة','طلاق','حضان','أولاد'] },
   { id: 'labor', terms: ['عامل','موظف','فصل','أجر','عمل','عمال','إجازة','تعويض'], anchors: ['العمل','عمال','فصل تعسفي'] },

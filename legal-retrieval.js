@@ -6,7 +6,7 @@ const TOPICS = [
   { id: 'debt', label: 'الديون والمطالبات المدنية', terms: ['دين', 'قرض', 'مطالبة', 'سند', 'شيك', 'مدين', 'دائن', 'تقادم', 'استحقاق'], categories: ['laws', 'library', 'contracts', 'articles'], anchors: ['الدين', 'القرض', 'المطالبة', 'التقادم', 'المدني', 'الشيك'] },
   { id: 'civil', label: 'المدني', terms: ['عقد', 'دين', 'تعويض', 'ملكية', 'إيجار', 'بيع', 'التزام', 'ضرر'], categories: ['laws', 'library', 'contracts', 'articles'], anchors: ['المدني', 'إيجار', 'عقد', 'تعويض'] }
 ];
-function normalize(s) { return String(s || '').normalize('NFKC').replace(/[إأآٱ]/g, 'ا').replace(/ى/g, 'ي').replace(/[ًٌٍَُِّْـ]/g, '').toLowerCase(); }
+function normalize(s) { return String(s || '').normalize('NFKC').replace(/[_-]+/g, ' ').replace(/[إأآٱ]/g, 'ا').replace(/ى/g, 'ي').replace(/[ًٌٍَُِّْـ]/g, '').toLowerCase(); }
 function classify(question) {
   const q = normalize(question); const ranked = TOPICS.map(t => ({ ...t, score: t.terms.reduce((n, term) => n + (q.includes(normalize(term)) ? 1 : 0), 0) })).sort((a, b) => b.score - a.score);
   return ranked[0].score ? ranked[0] : { id: 'general', label: 'عام', terms: [], categories: ['laws', 'library', 'contracts', 'articles'], anchors: [], score: 0 };
