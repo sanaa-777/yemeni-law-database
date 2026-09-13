@@ -3,6 +3,7 @@ const TOPICS = [
   { id: 'labor', label: 'العمل', terms: ['عامل', 'موظف', 'فصل', 'أجر', 'عمل', 'عمال', 'إجازة', 'تعويض'], categories: ['laws', 'library', 'articles'], anchors: ['العمل', 'عمال', 'فصل تعسفي'] },
   { id: 'commercial', label: 'التجارة', terms: ['تجارة', 'شركة', 'شريك', 'تاجر', 'شيك', 'بنك', 'بيع', 'استثمار'], categories: ['laws', 'library', 'contracts', 'articles'], anchors: ['التجاري', 'شركة', 'تجارية', 'شيك'] },
   { id: 'criminal', label: 'الجزائي', terms: ['جريمة', 'سرقة', 'اعتداء', 'ابتزاز', 'عقوبة', 'متهم', 'جزائي', 'جنائي'], categories: ['laws', 'library', 'articles'], anchors: ['الجرائم', 'العقوبات', 'الجزائية', 'جنائية'] },
+  { id: 'debt', label: 'الديون والمطالبات المدنية', terms: ['دين', 'قرض', 'مطالبة', 'سند', 'شيك', 'مدين', 'دائن', 'تقادم', 'استحقاق'], categories: ['laws', 'library', 'contracts', 'articles'], anchors: ['الدين', 'القرض', 'المطالبة', 'التقادم', 'المدني', 'الشيك'] },
   { id: 'civil', label: 'المدني', terms: ['عقد', 'دين', 'تعويض', 'ملكية', 'إيجار', 'بيع', 'التزام', 'ضرر'], categories: ['laws', 'library', 'contracts', 'articles'], anchors: ['المدني', 'إيجار', 'عقد', 'تعويض'] }
 ];
 function normalize(s) { return String(s || '').normalize('NFKC').replace(/[إأآٱ]/g, 'ا').replace(/ى/g, 'ي').replace(/[ًٌٍَُِّْـ]/g, '').toLowerCase(); }
@@ -14,6 +15,7 @@ function isRelevant(doc, topic, question) {
   const title = normalize(doc.title), body = normalize(doc.content), q = normalize(question);
   if (!topic || topic.id === 'general') return true;
   if (topic.id === 'family' && ['المورد', 'تجاري', 'شركة', 'بنك', 'مقاول', 'توريد'].some(x => title.includes(normalize(x)))) return false;
+  if (topic.id === 'debt' && ['الأحوال الشخصية', 'الإجراءات الجزائية', 'المهن الطبية', 'منافسة', 'حقوق الطفل', 'العمال'].some(x => title.includes(normalize(x)))) return false;
   if (!topic.categories.includes(doc.category)) return false;
   const titleHit = topic.anchors.some(a => title.includes(normalize(a)));
   const hits = topic.terms.filter(term => body.includes(normalize(term))).length;

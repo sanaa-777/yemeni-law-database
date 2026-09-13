@@ -51,14 +51,7 @@ const Chat = (() => {
     const answer = data.answer || 'لا توجد نتائج';
     const sources = data.sources || [];
 
-    let sourcesHTML = '';
-    if (sources.length) {
-      sourcesHTML = '<div class="src-list">';
-      sources.forEach(s => {
-        sourcesHTML += `<div class="src-item" onclick="App.viewDoc('${s.id}')"><i data-lucide="file-text"></i><span>${esc(s.title)}</span><span class="src-cat">${esc(s.category)}</span></div>`;
-      });
-      sourcesHTML += '</div>';
-    }
+    const sourcesHTML = '';
 
     d.querySelector('.mc').innerHTML =
       `<div class="think"><div class="think-h"><i data-lucide="check-circle"></i>الرأي القانوني الأولي</div></div>` +
